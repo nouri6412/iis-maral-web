@@ -16,7 +16,12 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.6.0.min.js"></script>
 	<?php wp_head(); ?>
 </head>
-
+<?php  
+ if ( pll_current_language() != 'fa' )
+ {
+	 $a=0;
+ }
+?>
 <body>
 
 	<!-- header -->
