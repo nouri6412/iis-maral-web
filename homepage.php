@@ -14,6 +14,9 @@
 get_header();
 
 ?>
+<?php
+  get_template_part('template-parts/homepage/homepage',"slider");
+?>
 <div class="container ps-4 pe-4 ps-md-0 pe-md-0 ps-lg-5 pe-xl-5 pt-3">
     <div class="ps-xl-5 pe-xl-5">
 
@@ -58,7 +61,7 @@ get_header();
     <div class="container position-relative h-100">
         <div class="col-11 m-auto p-4 pt-5 h-100" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Ellipse-9-1.png);background-repeat: no-repeat;background-position:top right;">
 
-            <div class="box right-box">
+            <div class="box">
                 <div>
                     <h2 class="font-bolder">ABOUT ISS GROUP
                     </h2>
