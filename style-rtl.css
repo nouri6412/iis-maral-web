@@ -1,0 +1,8 @@
+.slick-initialized .slick-slide{
+    direction: ltr;
+}
+
+
+.slick-initialized .slick-slide .btn-border-primary{
+    margin-right: 44px;
+}
