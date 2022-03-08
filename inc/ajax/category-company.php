@@ -1,5 +1,5 @@
 <?php
-class Karyabi_Category
+class iisgroup_Category
 {
     function get_company_cat_list()
     {

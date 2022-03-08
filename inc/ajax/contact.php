@@ -1,5 +1,5 @@
 <?php
-class Karyabi_Contact_Ajax
+class iisgroup_Contact_Ajax
 {
     function submit()
     {
@@ -89,11 +89,11 @@ class Karyabi_Contact_Ajax
         }
     }
 }
-$Karyabi_Contact_Ajax = new Karyabi_Contact_Ajax;
-add_action('wp_ajax_mbm_contact_form', array($Karyabi_Contact_Ajax, 'submit'));
-add_action('wp_ajax_nopriv_mbm_contact_form', array($Karyabi_Contact_Ajax, 'submit'));
+$iisgroup_Contact_Ajax = new iisgroup_Contact_Ajax;
+add_action('wp_ajax_mbm_contact_form', array($iisgroup_Contact_Ajax, 'submit'));
+add_action('wp_ajax_nopriv_mbm_contact_form', array($iisgroup_Contact_Ajax, 'submit'));
 
-add_action('wp_ajax_mbm_set_session', array($Karyabi_Contact_Ajax, 'session'));
-add_action('wp_ajax_nopriv_mbm_set_session', array($Karyabi_Contact_Ajax, 'session'));
+add_action('wp_ajax_mbm_set_session', array($iisgroup_Contact_Ajax, 'session'));
+add_action('wp_ajax_nopriv_mbm_set_session', array($iisgroup_Contact_Ajax, 'session'));
 
-add_action('user_register', array($Karyabi_Contact_Ajax, 'register_action'));
+add_action('user_register', array($iisgroup_Contact_Ajax, 'register_action'));

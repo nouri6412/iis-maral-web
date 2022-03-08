@@ -1,5 +1,5 @@
 <?php
-class Karyabi_Job
+class iisgroup_Job
 {
     function insert_job()
     {
@@ -269,20 +269,20 @@ class Karyabi_Job
     }
 }
 
-$Karyabi_Job = new Karyabi_Job;
-add_action('wp_ajax_mbm_profile_company_insert_job', array($Karyabi_Job, 'insert_job'));
-add_action('wp_ajax_nopriv_mbm_profile_company_insert_job', array($Karyabi_Job, 'insert_job'));
+$iisgroup_Job = new iisgroup_Job;
+add_action('wp_ajax_mbm_profile_company_insert_job', array($iisgroup_Job, 'insert_job'));
+add_action('wp_ajax_nopriv_mbm_profile_company_insert_job', array($iisgroup_Job, 'insert_job'));
 
-add_action('wp_ajax_mbm_profile_company_remove_job', array($Karyabi_Job, 'remove_job'));
-add_action('wp_ajax_nopriv_mbm_profile_company_remove_job', array($Karyabi_Job, 'remove_job'));
+add_action('wp_ajax_mbm_profile_company_remove_job', array($iisgroup_Job, 'remove_job'));
+add_action('wp_ajax_nopriv_mbm_profile_company_remove_job', array($iisgroup_Job, 'remove_job'));
 
-add_action('wp_ajax_mbm_change_status_request', array($Karyabi_Job, 'status'));
-add_action('wp_ajax_nopriv_mbm_change_status_request', array($Karyabi_Job, 'status'));
+add_action('wp_ajax_mbm_change_status_request', array($iisgroup_Job, 'status'));
+add_action('wp_ajax_nopriv_mbm_change_status_request', array($iisgroup_Job, 'status'));
 
-add_action('wp_ajax_mbm_change_favorite_request', array($Karyabi_Job, 'favorite'));
-add_action('wp_ajax_nopriv_mbm_change_favorite_request', array($Karyabi_Job, 'favorite'));
+add_action('wp_ajax_mbm_change_favorite_request', array($iisgroup_Job, 'favorite'));
+add_action('wp_ajax_nopriv_mbm_change_favorite_request', array($iisgroup_Job, 'favorite'));
 
 
-add_action('wp_ajax_mbm_change_status_job', array($Karyabi_Job, 'active'));
-add_action('wp_ajax_nopriv_mbm_change_status_job', array($Karyabi_Job, 'active'));
+add_action('wp_ajax_mbm_change_status_job', array($iisgroup_Job, 'active'));
+add_action('wp_ajax_nopriv_mbm_change_status_job', array($iisgroup_Job, 'active'));
 

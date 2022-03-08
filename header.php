@@ -40,6 +40,9 @@
 			<!--  -->
 			<div class="row align-items-center justify-content-between ps-lg-5 pe-lg-5">
 				<div class="col p-1 d-flex align-items-center">
+					<?php
+					
+					?>
 					<a href=""><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Group-306-1.svg" alt="" class="d-none d-lg-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Group-306-1.svg" alt="" width="100px" class="d-lg-none"></a>
 				</div>
 				<div class="col p-0 p-md-2 d-flex align-items-center justify-content-end pe-3">
@@ -65,7 +68,7 @@
 						$lang_direct = "/fa";
 					}
 					?>
-					<a href="<?php echo site_url() . $lang_direct; ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/<?php echo $lang_flag; ?>.png" alt="" width="80px" class="d-none d-lg-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/LANG.png" alt="" width="50px" class="d-lg-none"></a>
+					<a href="<?php echo site_url() . $lang_direct; ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/<?php echo $lang_flag; ?>.png" alt="" width="80px" class="d-none d-lg-block"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/<?php echo $lang_flag; ?>.png" alt="" width="50px" class="d-lg-none"></a>
 				</div>
 			</div>
 			<!--  -->

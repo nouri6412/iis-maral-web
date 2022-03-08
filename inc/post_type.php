@@ -1,7 +1,7 @@
 <?php
 ///post type contact
 
-function karyabi_post_type_contact()
+function iisgroup_post_type_contact()
 {
 
     $supports = array(
@@ -43,5 +43,5 @@ function karyabi_post_type_contact()
     );
     register_post_type('contact_form', $args);
 }
-add_action('init', 'karyabi_post_type_contact');
+add_action('init', 'iisgroup_post_type_contact');
 

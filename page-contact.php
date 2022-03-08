@@ -6,7 +6,7 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
  * @package WordPress
- * @subpackage Karyabi
+ * @subpackage iisgroup
  * @since 1.0.0
  * Template Name: ارتباط با ما
  */

@@ -10,9 +10,8 @@ function get_menu_array_nav_item($main_menu)
     }
     return $menus;
 }
-function karyabi_custom_menu()
+function iisgroup_custom_menu()
 {
     register_nav_menu('primary-menu', 'منوی اصلی ');
-    register_nav_menu('emp-menu', 'منوی کارفرمایان ');
 }
-add_action('init', 'karyabi_custom_menu');
+add_action('init', 'iisgroup_custom_menu');

@@ -1,6 +1,6 @@
 <?php
 
-class Karyabi_Company
+class iisgroup_Company
 {
     function save_profile()
     {
@@ -54,10 +54,10 @@ class Karyabi_Company
     }
 }
 
-$Karyabi_Company = new Karyabi_Company;
-add_action('wp_ajax_mbm_profile_company_profile', array($Karyabi_Company, 'save_profile'));
-add_action('wp_ajax_nopriv_mbm_profile_company_profile', array($Karyabi_Company, 'save_profile'));
+$iisgroup_Company = new iisgroup_Company;
+add_action('wp_ajax_mbm_profile_company_profile', array($iisgroup_Company, 'save_profile'));
+add_action('wp_ajax_nopriv_mbm_profile_company_profile', array($iisgroup_Company, 'save_profile'));
 
-add_action('wp_ajax_mbm_profile_company_profile_change_pass', array($Karyabi_Company, 'change_pass'));
-add_action('wp_ajax_nopriv_mbm_profile_company_profile_change_pass', array($Karyabi_Company, 'change_pass'));
+add_action('wp_ajax_mbm_profile_company_profile_change_pass', array($iisgroup_Company, 'change_pass'));
+add_action('wp_ajax_nopriv_mbm_profile_company_profile_change_pass', array($iisgroup_Company, 'change_pass'));
 

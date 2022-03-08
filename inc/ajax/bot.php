@@ -1161,8 +1161,8 @@ class MyTmpTelegramBot
 
         $cat_arr = [];
 
-        $Karyabi_Category = new Karyabi_Category;
-        $cats = $Karyabi_Category->get_company_cat_list();
+        $iisgroup_Category = new iisgroup_Category;
+        $cats = $iisgroup_Category->get_company_cat_list();
 
         foreach ($cats as $item) {
 
@@ -1207,8 +1207,8 @@ class MyTmpTelegramBot
     public function company_profile($user, $chatId)
     {
 
-        $Karyabi_Category = new Karyabi_Category;
-        $cats = $Karyabi_Category->get_company_cat_list();
+        $iisgroup_Category = new iisgroup_Category;
+        $cats = $iisgroup_Category->get_company_cat_list();
         $cat_id = get_the_author_meta('cat_id', $user->ID);
         $selected_cat = "";
         foreach ($cats as $item) {

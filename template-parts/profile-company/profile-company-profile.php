@@ -32,8 +32,8 @@ $user_meta = get_query_var('user_meta');
                 <label>دسته</label>
                 <select id="company-cat">
                     <?php
-                    $Karyabi_Category = new Karyabi_Category;
-                    $cats = $Karyabi_Category->get_company_cat_list();
+                    $iisgroup_Category = new iisgroup_Category;
+                    $cats = $iisgroup_Category->get_company_cat_list();
                     $cat_id = isset($user_meta['cat_id']) ? $user_meta['cat_id'][0] : 0;
                     ?>
 

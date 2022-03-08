@@ -1,5 +1,5 @@
 <?php
-class Karyabi_User
+class iisgroup_User
 {
     function save_profile()
     {
@@ -110,15 +110,15 @@ class Karyabi_User
     }
 }
 
-$Karyabi_User = new Karyabi_User;
-add_action('wp_ajax_mbm_profile_user_profile', array($Karyabi_User, 'save_profile'));
-add_action('wp_ajax_nopriv_mbm_profile_user_profile', array($Karyabi_User, 'save_profile'));
+$iisgroup_User = new iisgroup_User;
+add_action('wp_ajax_mbm_profile_user_profile', array($iisgroup_User, 'save_profile'));
+add_action('wp_ajax_nopriv_mbm_profile_user_profile', array($iisgroup_User, 'save_profile'));
 
-add_action('wp_ajax_mbm_profile_user_save_resume', array($Karyabi_User, 'save_resume'));
-add_action('wp_ajax_nopriv_mbm_profile_user_save_resume', array($Karyabi_User, 'save_resume'));
+add_action('wp_ajax_mbm_profile_user_save_resume', array($iisgroup_User, 'save_resume'));
+add_action('wp_ajax_nopriv_mbm_profile_user_save_resume', array($iisgroup_User, 'save_resume'));
 
-add_action('wp_ajax_mbm_profile_user_get_form', array($Karyabi_User, 'get_form'));
-add_action('wp_ajax_nopriv_mbm_profile_user_get_form', array($Karyabi_User, 'get_form'));
+add_action('wp_ajax_mbm_profile_user_get_form', array($iisgroup_User, 'get_form'));
+add_action('wp_ajax_nopriv_mbm_profile_user_get_form', array($iisgroup_User, 'get_form'));
 
-add_action('wp_ajax_mbm_user_resume_popup', array($Karyabi_User, 'get_user'));
-add_action('wp_ajax_nopriv_mbm_user_resume_popup', array($Karyabi_User, 'get_user'));
+add_action('wp_ajax_mbm_user_resume_popup', array($iisgroup_User, 'get_user'));
+add_action('wp_ajax_nopriv_mbm_user_resume_popup', array($iisgroup_User, 'get_user'));

@@ -6,8 +6,8 @@
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
  * @package WordPress
- * @subpackage Karyabi
- * @since Karyabi 1.0
+ * @subpackage iisgroup
+ * @since iisgroup 1.0
  */
 
 get_header();
