@@ -12,16 +12,22 @@
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/plugin/slick.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous">
 	<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
-	<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css" />
+	<?php
+	if (pll_current_language() != 'fa') {
+	?>
+		<link href="<?php echo get_template_directory_uri(); ?>/style-rtl.css" rel="stylesheet" type="text/css" />
+
+	<?php
+	} else {
+	?>
+		<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css" />
+	<?php
+	}
+	?>
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.6.0.min.js"></script>
 	<?php wp_head(); ?>
 </head>
-<?php  
- if ( pll_current_language() != 'fa' )
- {
-	 $a=0;
- }
-?>
+
 <body>
 
 	<!-- header -->

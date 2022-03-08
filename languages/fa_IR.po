@@ -1,0 +1,43 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iis-group\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-03-08 06:30+0000\n"
+"PO-Revision-Date: 2022-03-08 06:35+0000\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.8; wp-5.9.1\n"
+"X-Domain: iisgroup"
+
+#. Name of the template
+msgid "homepage"
+msgstr ""
+
+#. Name of the theme
+msgid "iis-group"
+msgstr ""
+
+msgid "test1"
+msgstr "تست سلام"
+
+#. Name of the template
+msgid "آخرین مطالب"
+msgstr ""
+
+#. Name of the template
+msgid "ارتباط با ما"
+msgstr ""
+
+#. Author of the theme
+msgid "جلیل نوری"
+msgstr ""
+
+#. Description of the theme
+msgid "قالب اختصاصی iisgroup"
+msgstr ""
