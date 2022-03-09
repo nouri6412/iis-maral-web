@@ -17,38 +17,10 @@ get_header();
 <?php
   get_template_part('template-parts/homepage/homepage',"slider");
   get_template_part('template-parts/homepage/homepage',"resent-immigration");
-?>
-
-<!--  -->
-<section class="bg-light d-none d-lg-block" style="min-height: 600px;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-58.png);background-position: top right;background-repeat: no-repeat;">
-    <div class="container position-relative h-100">
-        <div class="col-11 m-auto p-4 pt-5 h-100" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Ellipse-9-1.png);background-repeat: no-repeat;background-position:top right;">
-
-            <div class="box">
-                <div>
-                    <h2 class="font-bolder">ABOUT ISS GROUP
-                    </h2>
-                </div>
-                <div>
-                    <p class="text-secondary">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempus volutpat mauris volutpat
-                        auctor orci facilisis et suspendisse aliquet. Sed facilisi est turpis eros. Ultricies
-                        sit ac lorem ipsum in.
-                    </p>
-                </div>
-                <div><a href="" class="btn btn-primary">READ MORE</a></div>
-            </div>
-            <div class="big-image big-image-left"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Group-42-pgowt1cjusbx7sgqdfzmzt4nj1m4ll9x89pmroe062.png" alt=""></div>
-        </div>
-    </div>
-</section>
-
-
-<?php
+  get_template_part('template-parts/homepage/homepage',"about");
   get_template_part('template-parts/homepage/homepage',"resent-video");
   get_template_part('template-parts/homepage/homepage',"resent-program");
 ?>
-
 
 <!--  -->
 <section class="bg-image pt-3
