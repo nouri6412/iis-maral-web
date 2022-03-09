@@ -44,67 +44,10 @@ get_header();
 </section>
 
 
+<?php
+  get_template_part('template-parts/homepage/homepage',"resent-video");
+?>
 
-<!--  -->
-<section class="bg-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-305-2.jpg)">
-    <div class="container position-relative">
-        <div class="col-lg-10 m-lg-auto pt-4 pb-5">
-            <div class="text-center">
-                <h3 class="font-bolder">IMMIGRATION PROGRAM INTRODUCTION VIDEOS</h3>
-            </div>
-
-            <div class="mt-5">
-                <div class="row row-cols-3">
-                    <div class="col-6 col-md-4">
-                        <div class="cart-video">
-                            <figure class="position-relative"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-81.jpg" alt="">
-                                <a href="" class="position-absolute play"><i class="fas fa-play"></i></a>
-                            </figure>
-                            <a href="" class="p-2"><span class="font-bold">The cost of immigrating to Canada</span></a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <div class="cart-video">
-                            <figure class="position-relative "><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-83.jpg" alt=""><a href="" class="position-absolute play"><i class="fas fa-play"></i></a>
-                            </figure>
-                            <a href="" class="p-2"><span class="font-bold">The cost of immigrating to Canada</span></a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="cart-video big-image-card">
-                            <figure class="position-relative"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-85.jpg" alt=""><a href="" class="position-absolute play"><i class="fas fa-play"></i></a>
-                            </figure>
-                            <a href="" class="p-2"><span class="font-bold">The cost of immigrating to Canada</span></a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <div class="cart-video">
-                            <figure class="position-relative"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-90.jpg" alt=""><a href="" class="position-absolute play"><i class="fas fa-play"></i></a>
-                            </figure>
-                            <a href="" class="p-2"><span class="font-bold">The cost of immigrating to Canada</span></a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <div class="cart-video">
-                            <figure class="position-relative"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-831.jpg" alt=""><a href="" class="position-absolute play"><i class="fas fa-play"></i></a>
-                            </figure>
-                            <a href="" class="p-2"><span class="font-bold">The cost of immigrating to Canada</span></a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <div class="cart-video">
-                            <figure class="position-relative"><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-851.jpg" alt=""><a href="" class="position-absolute play"><i class="fas fa-play"></i></a>
-                            </figure>
-                            <a href="" class="p-2"><span class="font-bold">The cost of immigrating to Canada</span></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!--  -->
 
 <!--  -->
 <section class="bg-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-305.jpg);background-position: top center;">
