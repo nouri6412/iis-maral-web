@@ -77,87 +77,99 @@
 			</div>
 			<!--  -->
 
-			<!-- navigation -->
+            <!-- navigation -->
 
-			<!-- mobile-menu -->
-			<div class="text-end follow-btn d-md-none">
-				<button class="btn btn-primary">Follow us</button>
-			</div>
-			<nav class="navbar navbar-expand-lg navbar-light d-md-none ">
-				<div class="container-fluid">
-					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-3">
-							<li class="nav-item">
-								<a class="nav-link active" href="#">Home Page</a>
-							</li>
-							<!-- <li class="nav-item">
+            <!-- mobile-menu -->
+            <div class="text-end follow-btn d-md-none">
+                <a href="<?php echo (isset($header["follow_us"])) ? $header["follow_us"]: ''; ?>" class="btn btn-primary"><?php _e('Follow us','iisgroup');  ?></a>
+            </div>
+            <nav class="navbar navbar-expand-lg navbar-light d-md-none ">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 pt-3">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home Page</a>
+                            </li>
+                            <!-- <li class="nav-item">
                                     <a href="" class="nav-link">Immigration Programs</a>
                                 </li> -->
-							<div class="accordion accordion-flush" id="accordionFlushExample">
-								<div class="accordion-item">
-									<h2 class="accordion-header nav-item" id="flush-headingOne">
-										<a class="accordion-button collapsed nav-link" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-											Immigration Programs
-										</a>
-									</h2>
-									<div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-										<div class="accordion-body ps-0">
-											<ul class="p-0 m-0">
-												<li class="nav-item"><a href="" class="nav-link">ویزای تحصیلی</a></li>
-												<li class="nav-item"><a href="" class="nav-link">ویزای کار کانادا</a>
-												</li>
-												<li class="nav-item"><a href="" class="nav-link">استارتاپ ویزای
-														کانادا</a></li>
-												<li class="nav-item"><a href="" class="nav-link">سرمایه گذاری در
-														کانادا</a></li>
-											</ul>
-										</div>
-									</div>
-								</div>
-							</div>
-							<li class="nav-item">
-								<a href="" class="nav-link">Blog</a>
-							</li>
-							<li class="nav-item">
-								<a href="" class="nav-link">News media</a>
-							</li>
-							<li class="nav-item">
-								<a href="" class="nav-link">Visual media</a>
-							</li>
-							<li class="nav-item">
-								<a href="" class="nav-link">About us</a>
-							</li>
-							<li class="nav-item">
-								<a href="" class="nav-link">Contact us</a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</nav>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header nav-item" id="flush-headingOne">
+                                        <a class="accordion-button collapsed nav-link" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Immigration Programs
+                                        </a>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body ps-0">
+                                            <ul class="p-0 m-0">
+                                                <li class="nav-item"><a href="" class="nav-link">Student visa</a></li>
+                                                <li class="nav-item"><a href="" class="nav-link">Canadian work visa</a>
+                                                </li>
+                                                <li class="nav-item"><a href="" class="nav-link">Visa Startup
+                                                        Canada</a></li>
+                                                <li class="nav-item"><a href="" class="nav-link">Investing in
+                                                        Canada</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">News media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Visual media</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
 
 
-			<!-- desktop-manu-->
-			<nav class="pt-3 pb-3 ps-xl-5 pe-xl-5 d-none d-md-block">
-				<div class="row align-items-center">
-					<div class="col-9">
-						<ul class="p-0 m-0 d-flex menu-list align-items-center">
-							<li><a href="" class="active">Home Page</a></li>
-							<li><a href="">Immigration Programs</a></li>
-							<li><a href="">Blog</a></li>
-							<li><a href="">News media</a></li>
-							<li><a href="">Visual media</a></li>
-							<li><a href="">About us</a></li>
-							<li><a href="">Contact us</a></li>
-						</ul>
-					</div>
-					<div class="col-3 text-end">
-						<button class="btn btn-primary">Follow us</button>
-					</div>
-				</div>
-			</nav>
+            <!-- desktop-manu-->
+            <nav class="pt-3 pb-3 ps-xl-5 pe-xl-5 d-none d-md-block">
+                <div class="row align-items-center">
+                    <div class="col-9">
+                        <ul class="p-0 m-0 d-flex menu-list align-items-center">
+                            <li><a href="" class="active">Home Page</a></li>
+                            <li class="position-relative child"><a href="">Immigration Programs</a>
+                                <ul class="p-0 m-0 inner">
+                                    <li><a href="">Student visa</a></li>
+                                    <li><a href="">Canadian work visa</a></li>
+                                    <li><a href="">Canadian Visa Startup</a></li>
+                                    <li><a href="">Investing in Canada</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">News media</a></li>
+                            <li><a href="">Visual media</a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Contact us</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-3 text-end">
+                        <a href="<?php echo (isset($header["follow_us"])) ? $header["follow_us"]: ''; ?>" class="btn btn-primary"><?php _e('Follow us','iisgroup');  ?></a>
+                    </div>
+                </div>
+            </nav>
 		</div>
 
 
