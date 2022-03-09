@@ -555,7 +555,7 @@ form input::placeholder {
 .inner {
     position: absolute;
     width: 150px;
-    height: 150px;
+    min-height: 150px;
     background-color: #ffff;
     right: -2px;
     top: 40px;
