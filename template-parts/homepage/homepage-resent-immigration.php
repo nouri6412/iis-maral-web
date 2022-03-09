@@ -14,7 +14,7 @@ $the_query = new WP_Query($args);
             <div class="pb-2">
                 <div class="row p-3 row-cols-md-4 pb-5">
                     <div class="col-12 col-md-3 p-0 d-flex flex-column justify-content-center align-items-center">
-                        <h3 class="text-center mb-5 font-bolder"><?php _e('WEBSITES OF THE IMMIGRATION ORGANIZATION','iisgroup') ?>
+                        <h3 class="text-center mb-5 font-bold"><?php _e('WEBSITES OF THE IMMIGRATION ORGANIZATION','iisgroup') ?>
                         </h3>
                         <div>
                             <a href="<?php echo custom_site_url('immigration'); ?>" class="btn btn-primary"><?php _e('more','iisgroup') ?></a>
@@ -24,11 +24,9 @@ $the_query = new WP_Query($args);
                     while ($the_query->have_posts()) :
                         $the_query->the_post();
                     ?>
-                        <li>
                             <?php
                             get_template_part('template-parts/immigration/immigration', 'item');
                             ?>
-                        </li>
                     <?php
                     endwhile;
                     wp_reset_query();
