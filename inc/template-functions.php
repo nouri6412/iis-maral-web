@@ -109,3 +109,12 @@ function custom_generate_menu_li($navItem, $menu)
     ?>
 <?php
 }
+
+
+function custom_site_url($url)
+{
+    if (pll_current_language() == 'fa') {
+        return site_url( 'fa/' . $url);
+    }
+    return site_url($url);
+}

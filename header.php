@@ -34,7 +34,6 @@
 </head>
 
 <body>
-
 	<!-- header -->
 	<header>
 		<div class="container ps-xl-5 pe-xl-5 pt-1 position-relative pb-2 pb-lg-0">

@@ -33,11 +33,11 @@ $header = get_field("homepage-sec1", "option");
                 <div class="col">
                     <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo ( isset($header["item1"]) && isset($header["item1"]["icon"])) ? $header["item1"]["icon"] : ''; ?>"/>
+                          <img style="width: 45px;height:45px" src="<?php echo (  isset($header[$lang_flag]) && isset($header[$lang_flag]["item1"]) && isset($header[$lang_flag]["item1"]["icon"])) ? $header[$lang_flag]["item1"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
-                            <h5><?php echo ( isset($header["item1"]) && isset($header["item1"]["title"])) ? $header["item1"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
-                            <?php echo (isset($header["item1"]) && isset($header["item1"]["desc"])) ? $header["item1"]["desc"] : ''; ?>                       
+                            <h5><?php echo ( isset($header[$lang_flag]) && isset($header[$lang_flag]["item1"]) && isset($header[$lang_flag]["item1"]["title"])) ? $header[$lang_flag]["item1"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
+                            <?php echo (isset($header[$lang_flag]) && isset($header[$lang_flag]["item1"]) && isset($header[$lang_flag]["item1"]["desc"])) ? $header[$lang_flag]["item1"]["desc"] : ''; ?>                       
                             </span>
                         </div>
                     </div>
@@ -45,11 +45,11 @@ $header = get_field("homepage-sec1", "option");
                 <div class="col">
                 <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo ( isset($header["item2"]) && isset($header["item2"]["icon"])) ? $header["item2"]["icon"] : ''; ?>"/>
+                          <img style="width: 45px;height:45px" src="<?php echo ( isset($header[$lang_flag]) && isset($header[$lang_flag]["item2"]) && isset($header[$lang_flag]["item2"]["icon"])) ? $header[$lang_flag]["item2"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
-                            <h5><?php echo ( isset($header["item2"]) && isset($header["item2"]["title"])) ? $header["item2"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
-                            <?php echo (isset($header["item2"]) && isset($header["item2"]["desc"])) ? $header["item2"]["desc"] : ''; ?>                       
+                            <h5><?php echo ( isset($header[$lang_flag]) && isset($header[$lang_flag]["item2"]) && isset($header[$lang_flag]["item2"]["title"])) ? $header[$lang_flag]["item2"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
+                            <?php echo (isset($header[$lang_flag]) && isset($header[$lang_flag]["item2"]) && isset($header[$lang_flag]["item2"]["desc"])) ? $header[$lang_flag]["item2"]["desc"] : ''; ?>                       
                             </span>
                         </div>
                     </div>
@@ -57,11 +57,11 @@ $header = get_field("homepage-sec1", "option");
                 <div class="col">
                 <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo ( isset($header["item3"]) && isset($header["item3"]["icon"])) ? $header["item3"]["icon"] : ''; ?>"/>
+                          <img style="width: 45px;height:45px" src="<?php echo ( isset($header[$lang_flag]) && isset($header[$lang_flag]["item3"]) && isset($header[$lang_flag]["item3"]["icon"])) ? $header[$lang_flag]["item3"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
-                            <h5><?php echo ( isset($header["item3"]) && isset($header["item3"]["title"])) ? $header["item3"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
-                            <?php echo (isset($header["item3"]) && isset($header["item3"]["desc"])) ? $header["item3"]["desc"] : ''; ?>                       
+                            <h5><?php echo ( isset($header[$lang_flag]) && isset($header[$lang_flag]["item3"]) && isset($header[$lang_flag]["item3"]["title"])) ? $header[$lang_flag]["item3"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
+                            <?php echo (isset($header[$lang_flag]) && isset($header[$lang_flag]["item3"]) && isset($header[$lang_flag]["item3"]["desc"])) ? $header[$lang_flag]["item3"]["desc"] : ''; ?>                       
                             </span>
                         </div>
                     </div>
@@ -69,11 +69,11 @@ $header = get_field("homepage-sec1", "option");
                 <div class="col">
                 <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo ( isset($header["item4"]) && isset($header["item4"]["icon"])) ? $header["item4"]["icon"] : ''; ?>"/>
+                          <img style="width: 45px;height:45px" src="<?php echo ( isset($header[$lang_flag]) && isset($header[$lang_flag]["item4"]) && isset($header[$lang_flag]["item4"]["icon"])) ? $header[$lang_flag]["item4"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
-                            <h5><?php echo ( isset($header["item4"]) && isset($header["item4"]["title"])) ? $header["item4"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
-                            <?php echo (isset($header["item4"]) && isset($header["item4"]["desc"])) ? $header["item4"]["desc"] : ''; ?>                       
+                            <h5><?php echo ( isset($header[$lang_flag]) && isset($header[$lang_flag]["item4"]) && isset($header[$lang_flag]["item4"]["title"])) ? $header[$lang_flag]["item4"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
+                            <?php echo (isset($header[$lang_flag]) && isset($header[$lang_flag]["item4"]) && isset($header[$lang_flag]["item4"]["desc"])) ? $header[$lang_flag]["item4"]["desc"] : ''; ?>                       
                             </span>
                         </div>
                     </div>

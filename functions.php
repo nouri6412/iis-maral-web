@@ -151,3 +151,5 @@ function custom_bloginfo($output, $show)
     return $output;
 }
 add_filter('bloginfo', 'custom_bloginfo', 10, 2);
+
+

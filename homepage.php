@@ -16,46 +16,9 @@ get_header();
 ?>
 <?php
   get_template_part('template-parts/homepage/homepage',"slider");
+  get_template_part('template-parts/homepage/homepage',"resent-immigration");
 ?>
-<div class="container ps-4 pe-4 ps-md-0 pe-md-0 ps-lg-5 pe-xl-5 pt-3">
-    <div class="ps-xl-5 pe-xl-5">
 
-        <!--  -->
-        <section class="pt-5">
-            <div class="pb-2">
-                <div class="row p-3 row-cols-md-4 pb-5">
-                    <div class="col-12 col-md-3 p-0 d-flex flex-column justify-content-center align-items-center">
-                        <h3 class="text-center mb-5 font-bolder">WEBSITES OF THE<br> IMMIGRATION<br> ORGANIZATION
-                        </h3>
-                        <div>
-                            <a href="" class="btn btn-primary">READ MORE</a>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-3">
-                        <div class="cart-elem">
-                            <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/image/work-in-pgmpdq6lkmyx9g4nq8bsob528hy9toh2vxvx02bm0m.jpg" alt=""></figure>
-                            <a href="" class="pt-0"><span>Types of visas and<br> residence Canada​
-                                </span></a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="cart-elem">
-                            <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/image/study-in-pgmpg3pwuk80lyoeurauh7k0ak8oa4wnjp93o8ssae.jpg" alt=""></figure>
-                            <a href="" class="pt-2"><span>Study in canada</span></a>
-                        </div>
-                    </div>
-                    <div class="col-6 col-lg-3">
-                        <div class="cart-elem">
-                            <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/image/visas-pgmpgr7vlf46o7qa1jgipjmj570umkhxyxk8o5txyu.jpg" alt=""></figure>
-                            <a href="" class="pt-2"><span>Startup visa​</span></a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </section>
-    </div>
-</div>
 <!--  -->
 <section class="bg-light d-none d-lg-block" style="min-height: 600px;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-58.png);background-position: top right;background-repeat: no-repeat;">
     <div class="container position-relative h-100">

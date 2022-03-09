@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-09 06:13+0000\n"
+"PO-Revision-Date: 2022-03-09 09:20+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -31,6 +31,9 @@ msgstr "بیشتر"
 
 msgid "test1"
 msgstr "تست سلام"
+
+msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
+msgstr "وب سایت های سازمان مهاجرتی iss"
 
 #. Name of the template
 msgid "آخرین مطالب"
