@@ -453,7 +453,7 @@ main {
     font-weight: 500;
 }
 
-form input:not(input[type="checkbox"]) {
+.form input:not(input[type="checkbox"]) {
     background-color: #EAEDF3;
     border: none;
     width: 90%;
@@ -466,7 +466,7 @@ form input:not(input[type="checkbox"]) {
     -o-border-radius: 8px 8px 8px 8px;
 }
 
-form input::placeholder {
+.form input::placeholder {
     color: #B3B5BB;
     text-align: right;
 }
