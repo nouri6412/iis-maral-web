@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-09 10:11+0000\n"
+"PO-Revision-Date: 2022-03-09 11:19+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -31,6 +31,9 @@ msgstr "ویدیو های معرفی برنامه های مهاجرتی"
 
 msgid "more"
 msgstr "بیشتر"
+
+msgid "READ MORE"
+msgstr "اطلاعات بیشتر"
 
 msgid "test1"
 msgstr "تست سلام"

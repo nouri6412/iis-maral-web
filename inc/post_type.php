@@ -116,7 +116,7 @@ function iisgroup_post_type_video()
         'add_new_item' => "ثبت ویدئو",
         'new_item' => "ویدئو جدید",
         'edit_item' => "ویرایش ویدئو",
-        'view_item' => "مشاهده وب سایت های مهاجرتی",
+        'view_item' => "مشاهده ویدئو",
         'all_items' => "همه ویدئو",
         'search_items' => "جستجوی ویدئو",
         'not_found' => "یافت نشد"
@@ -137,4 +137,51 @@ function iisgroup_post_type_video()
     register_post_type('video', $args);
 }
 add_action('init', 'iisgroup_post_type_video');
+
+
+///post type program
+
+function iisgroup_post_type_program()
+{
+
+    $supports = array(
+        'title', // post title
+        'thumbnail', // featured images
+		'editor',
+		'excerpt',
+        'custom-fields', // custom fields
+        'post-formats', // post formats
+		
+    );
+
+    $labels = array(
+        'name' => _x('برنامه های مهاجرتی', 'plural'),
+        'singular_name' => _x('برنامه های مهاجرتی', 'singular'),
+        'menu_name' => _x('برنامه های مهاجرتی', 'admin menu'),
+        'name_admin_bar' => _x('برنامه های مهاجرتی', 'admin bar'),
+        'add_new' => _x('برنامه های مهاجرتی جدید', 'add new'),
+        'add_new_item' => "ثبت برنامه های مهاجرتی",
+        'new_item' => "ویدئو برنامه های مهاجرتی",
+        'edit_item' => "ویرایش برنامه های مهاجرتی",
+        'view_item' => "مشاهده برنامه های مهاجرتی",
+        'all_items' => "همه برنامه های مهاجرتی",
+        'search_items' => "جستجوی برنامه های مهاجرتی",
+        'not_found' => "یافت نشد"
+    );
+
+    $args = array(
+        'supports' => $supports,
+        'labels' => $labels,
+        'public' => true,
+        'query_var' => true,
+        'rewrite' => array('slug' => 'program'),
+        'has_archive' => true,
+        'hierarchical' => false,
+        // 'capabilities' => array(
+        //     'create_posts' => 'do_not_allow'
+        // )
+    );
+    register_post_type('program', $args);
+}
+add_action('init', 'iisgroup_post_type_program');
 
