@@ -46,53 +46,9 @@ get_header();
 
 <?php
   get_template_part('template-parts/homepage/homepage',"resent-video");
+  get_template_part('template-parts/homepage/homepage',"resent-program");
 ?>
 
-
-<!--  -->
-<section class="bg-image" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-305.jpg);background-position: top center;">
-    <div class="container position-relative">
-        <div class="col-lg-11 m-auto p-lg-4 pt-5">
-            <div class="text-center d-flex flex-column">
-                <h3 class="little-border font-bold">IMMIGRATION PROGRAMS
-                </h3>
-                <span class="font-span">Permanent Residency
-                </span>
-            </div>
-            <div class="row p-3 row-cols-1 row-cols-lg-4">
-                <div class="col-6 col-lg-3">
-                    <div class="cart-elem responsive">
-                        <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-93-pgq84dllpv51tzzc9ocwjgj4m3fgxpsj0i9ila1gt0.jpg" alt=""></figure>
-                        <a href="" class="pt-2"><span class="font-bold">Educational</span></a>
-                        <div class="text-end p-2 pe-3"><a href="" class="font-bold font-13">More></a></div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="cart-elem responsive">
-                        <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-92.jpg" alt=""></figure>
-                        <a href="" class="pt-2"><span class="font-bold">Educational</span></a>
-                        <div class="text-end p-2 pe-3"><a href="" class="font-13">More></a></div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3">
-                    <div class="cart-elem responsive">
-                        <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-90-1-pgq85w48q97ojds5fbx9k2rv2fyrc5syk03ofbsms4.jpg" alt=""></figure>
-                        <a href="" class="pt-2"><span class="font-bold">Educational</span></a>
-                        <div class="text-end p-2 pe-3"><a href="" class="font-13">More></a></div>
-                    </div>
-                </div>
-                <div class="col-6 col-lg-3 ">
-                    <div class="cart-elem responsive">
-                        <figure><img src="<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-91.jpg" alt=""></figure>
-                        <a href="" class="pt-2"><span class="font-bold">Educational</span></a>
-                        <div class="text-end p-2 pe-3"><a href="" class="font-13">More></a></div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
 
 <!--  -->
 <section class="bg-image pt-3
