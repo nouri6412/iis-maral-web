@@ -29,6 +29,9 @@ $the_query = new WP_Query($args);
                     ?>
                 </div>
             </div>
+            <div>
+                <a href="<?php echo custom_site_url('video'); ?>" class="btn btn-primary"><?php _e('more', 'iisgroup') ?></a>
+            </div>
         </div>
     </div>
 </section>

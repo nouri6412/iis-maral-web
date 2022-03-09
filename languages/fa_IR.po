@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-09 11:23+0000\n"
+"PO-Revision-Date: 2022-03-09 11:33+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -35,8 +35,14 @@ msgstr "برنامه های مهاجرتی"
 msgid "more"
 msgstr "بیشتر"
 
+msgid "next"
+msgstr "بعدی"
+
 msgid "Permanent Residency"
 msgstr "اقامت دائم"
+
+msgid "prev"
+msgstr "قبلی"
 
 msgid "READ MORE"
 msgstr "اطلاعات بیشتر"
