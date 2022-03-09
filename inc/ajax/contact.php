@@ -41,7 +41,7 @@ class iisgroup_Contact_Ajax
         $post_id = wp_insert_post($args);
         if (!is_wp_error($post_id)) {
             $result["state"] = 1;
-            $result["message"] = 'با موفقیت ثبت شد';
+            $result["message"] = __('Successfully submitted','iisgroup');
         } else {
 
             $result["state"] = 0;

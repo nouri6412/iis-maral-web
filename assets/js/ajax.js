@@ -23,17 +23,17 @@ function ajax_submit_mbm_contact_form(name, email, message,element_error,element
     element_done.html('');
     if(name.length==0)
     {
-        error= 'نام نباید خالی بماند';
+        error= 'name invalid';
     }
 
     if(email.length==0)
     {   
-        error +='<br>'+ 'ایمیل نباید خالی بماند';
+        error +='<br>'+ 'email invalid';
     }
 
     if(message.length==0)
     {
-        error +='<br>'+ 'پیام نباید خالی بماند';
+        error +='<br>'+ 'message invalid';
     }
 
     if(error.length>0)
