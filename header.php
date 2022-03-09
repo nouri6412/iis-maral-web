@@ -25,10 +25,10 @@
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/plugin/slick-theme.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/plugin/slick.css">
 		<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
-		<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css" />
 	<?php
 	}
 	?>
+	<link href="<?php echo get_template_directory_uri(); ?>/style.css" rel="stylesheet" type="text/css" />
 	<script src="<?php echo get_template_directory_uri(); ?>/assets/js/jquery-3.6.0.min.js"></script>
 	<?php wp_head(); ?>
 </head>

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-09 11:33+0000\n"
+"PO-Revision-Date: 2022-03-09 12:36+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -14,6 +14,12 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.5.8; wp-5.9.1\n"
 "X-Domain: iisgroup"
+
+msgid "Contact us"
+msgstr "تماس با ما"
+
+msgid "email"
+msgstr "ایمیل"
 
 msgid "Follow us"
 msgstr "ما را دنبال کنید"
@@ -32,8 +38,14 @@ msgstr "ویدیو های معرفی برنامه های مهاجرتی"
 msgid "IMMIGRATION PROGRAMS"
 msgstr "برنامه های مهاجرتی"
 
+msgid "message"
+msgstr "پیام"
+
 msgid "more"
 msgstr "بیشتر"
+
+msgid "name"
+msgstr "نام"
 
 msgid "next"
 msgstr "بعدی"
@@ -46,6 +58,9 @@ msgstr "قبلی"
 
 msgid "READ MORE"
 msgstr "اطلاعات بیشتر"
+
+msgid "send"
+msgstr "ارسال"
 
 msgid "test1"
 msgstr "تست سلام"
