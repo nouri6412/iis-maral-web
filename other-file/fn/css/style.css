@@ -594,11 +594,11 @@ form input::placeholder {
 }
 
 .inner li:hover {
-    background-color: #000000;
+    background-color: #0770BD;
 }
 
 .inner li:hover a {
-    color: #0770BD !important;
+    color: #fff !important;
 }
 
 .child:hover>.inner {
@@ -647,13 +647,13 @@ form input::placeholder {
 }
 
 .nav-link.active {
-    background-color: #252424e3 !important;
-    color: #0770BD !important;
+    background-color: #0770BD !important;
+    color: #fff !important;
 }
 
 .follow-btn {
     position: absolute;
-    bottom: 13px;
+    top: 86px;
     left: 20px;
     display: inline-block;
 }
@@ -710,8 +710,8 @@ h5.border-blue::after {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #0770BD !important;
-    background-color: #252424e3 !important;
+    color: #fff !important;
+    background-color: #0770BD !important;
     box-shadow: none !important;
 }
 
@@ -1130,7 +1130,7 @@ h5.border-blue::after {
 
 .accordion {
     width: 100%;
-    padding: 1.2rem 0;
+    padding:0 !important;
     border-radius: 1rem;
     background: white;
     /*   box-shadow: 0 0 5rem lightgrey; */

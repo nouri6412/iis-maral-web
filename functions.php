@@ -2,7 +2,7 @@
 //************************* dynamic title *****************************
 function iisgroup_theme_support()
 {
-    load_theme_textdomain( 'iisgroup', get_template_directory() . '/languages' );
+    load_theme_textdomain('iisgroup', get_template_directory() . '/languages');
     add_theme_support('title-tag');
     add_theme_support('post-thumbnails');
     add_theme_support('category-thumbnails');
@@ -87,7 +87,6 @@ if (function_exists('acf_add_options_page')) {
         'menu_slug'     => 'iis-theme-general-settings-homepage',
         'parent_slug'    => 'iis-theme-general-settings',
     ));
-
 }
 
 
@@ -125,13 +124,30 @@ foreach (glob(get_template_directory() . "/inc/ajax/*.php") as $filename) {
 
 
 //date hook
-function time_ago_date(  $the_date) {
+function time_ago_date($the_date)
+{
 
-	return human_time_diff( get_the_time('U'), current_time('timestamp') ) . ' ' .'پیش';
+    return human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . 'پیش';
 }
-add_filter( 'get_the_date', 'time_ago_date', 10, 1 );
+add_filter('get_the_date', 'time_ago_date', 10, 1);
 
+///site info
+function custom_bloginfo($output, $show)
+{
+    $lang_flag = "fa";
+    if (pll_current_language() != 'fa') {
+        $lang_flag = "en";
+    }
 
+    $header = get_field("header-iis","option");
 
-
-
+    if ($show == "name") {
+        return $header["site-title-".$lang_flag];
+    }
+    else if($show == "description")
+    {
+        return $header["site-desc-".$lang_flag];
+    }
+    return $output;
+}
+add_filter('bloginfo', 'custom_bloginfo', 10, 2);

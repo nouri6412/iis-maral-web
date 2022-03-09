@@ -573,10 +573,10 @@ form input::placeholder {
 
 .inner {
     position: absolute;
-    width: 150px;
-    height: 150px;
+    width: 170px;
+    height: 160px;
     background-color: #ffff;
-    right: -2px;
+    left: -2px;
     top: 40px;
     padding: 0 !important;
     margin: 0 !important;
@@ -613,11 +613,11 @@ form input::placeholder {
 }
 
 .inner li:hover {
-    background-color: #000000;
+    background-color: #0770BD;
 }
 
 .inner li:hover a {
-    color: #0770BD !important;
+    color: white !important;
 }
 
 .child:hover>.inner {
@@ -666,17 +666,16 @@ form input::placeholder {
 }
 
 .nav-link.active {
-    background-color: #252424e3 !important;
-    color: #0770BD !important;
+    background-color: #0770BD !important;
+    color: white !important;
 }
 
 .follow-btn {
     position: absolute;
-    bottom: 13px;
-    right: 20px;
+    top: 86px;
     display: inline-block;
+    right: 20px;
 }
-
 .border-blue {
     position: relative;
     margin-bottom: 40px;
@@ -711,7 +710,6 @@ h5.border-blue::after {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
-
 .font-13 {
     font-size: 16px;
 }
@@ -726,8 +724,8 @@ h5.border-blue::after {
 }
 
 .accordion-button:not(.collapsed) {
-    color: #0770BD !important;
-    background-color: #252424e3 !important;
+    color: white !important;
+    background-color: #0770BD !important;
     box-shadow: none !important;
 }
 
