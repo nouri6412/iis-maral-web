@@ -82,8 +82,8 @@ if (function_exists('acf_add_options_page')) {
     ));
 
     acf_add_options_sub_page(array(
-        'page_title'     => 'صفحه اول',
-        'menu_title'    => 'صفحه اول',
+        'page_title'     => 'فوتر',
+        'menu_title'    => 'فوتر',
         'menu_slug'     => 'iis-theme-general-settings-homepage',
         'parent_slug'    => 'iis-theme-general-settings',
     ));

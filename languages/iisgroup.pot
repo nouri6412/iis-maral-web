@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-09 13:05+0000\n"
+"POT-Creation-Date: 2022-03-10 08:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,12 +16,109 @@ msgstr ""
 "X-Loco-Version: 2.5.8; wp-5.9.1\n"
 "X-Domain: iisgroup"
 
+#. 1: Comment date, 2: Comment time.
+#: classes/class-custom-theme-walker-comment.php:78
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#. %s: Comment author link.
+#: classes/class-custom-theme-walker-comment.php:59
+#, php-format
+msgid "%s <span class=\"screen-reader-text says\">says:</span>"
+msgstr ""
+
+#: template-parts/homepage/homepage-contact.php:12
+#: template-parts/homepage/homepage-contact.php:41
+msgid "Contact us"
+msgstr ""
+
+#: classes/class-custom-theme-walker-comment.php:89
+msgid "Edit"
+msgstr ""
+
+#: template-parts/homepage/homepage-contact.php:17
+#: template-parts/homepage/homepage-contact.php:46
+msgid "email"
+msgstr ""
+
+#: template-parts/menu/menu-content.php:17
+#: template-parts/menu/menu-content.php:50
+msgid "Follow us"
+msgstr ""
+
 #. Name of the template
 msgid "homepage"
 msgstr ""
 
 #. Name of the theme
 msgid "iis-group"
+msgstr ""
+
+#: archive-video.php:28 template-parts/homepage/homepage-resent-video.php:14
+msgid "IMMIGRATION PROGRAM INTRODUCTION VIDEOS"
+msgstr ""
+
+#: archive-program.php:28
+#: template-parts/homepage/homepage-resent-program.php:14
+msgid "IMMIGRATION PROGRAMS"
+msgstr ""
+
+#: template-parts/homepage/homepage-contact.php:16
+#: template-parts/homepage/homepage-contact.php:45
+msgid "message"
+msgstr ""
+
+#: template-parts/homepage/homepage-resent-immigration.php:20
+#: template-parts/homepage/homepage-resent-program.php:33
+#: template-parts/homepage/homepage-resent-video.php:33
+#: template-parts/program/program-item.php:5
+msgid "more"
+msgstr ""
+
+#: template-parts/homepage/homepage-contact.php:15
+#: template-parts/homepage/homepage-contact.php:44
+msgid "name"
+msgstr ""
+
+#: archive-immigration.php:55 archive-program.php:55 archive-video.php:55
+msgid "next"
+msgstr ""
+
+#: template-parts/homepage/homepage-resent-program.php:16
+msgid "Permanent Residency"
+msgstr ""
+
+#: archive-immigration.php:56 archive-program.php:56 archive-video.php:56
+msgid "prev"
+msgstr ""
+
+#: template-parts/homepage/homepage-about.php:23
+msgid "READ MORE"
+msgstr ""
+
+#: template-parts/homepage/homepage-contact.php:24
+#: template-parts/homepage/homepage-contact.php:53
+msgid "send"
+msgstr ""
+
+#: inc/ajax/contact.php:44
+msgid "Successfully submitted"
+msgstr ""
+
+#: archive-immigration.php:28
+#: template-parts/homepage/homepage-resent-immigration.php:17
+msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
+msgstr ""
+
+#: classes/class-custom-theme-walker-comment.php:96
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: classes/class-custom-theme-walker-comment.php:98
+msgid ""
+"Your comment is awaiting moderation. This is a preview; your comment will be "
+"visible after it has been approved."
 msgstr ""
 
 #. Name of the template
@@ -32,6 +129,10 @@ msgstr ""
 msgid "ارتباط با ما"
 msgstr ""
 
+#. Name of the template
+msgid "برنامه های مهاجرتی"
+msgstr ""
+
 #. Author of the theme
 msgid "جلیل نوری"
 msgstr ""
@@ -40,50 +141,16 @@ msgstr ""
 msgid "قالب اختصاصی iisgroup"
 msgstr ""
 
-msgid "test1"
+#. Name of the template
+msgid "وب سایت های مهاجرتی"
 msgstr ""
 
-msgid "more"
+#. Name of the template
+msgid "ویدئو ها"
 msgstr ""
 
-msgid "Follow us"
+msgid "Services"
 msgstr ""
 
-msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
-msgstr ""
-
-msgid "IMMIGRATION PROGRAM INTRODUCTION VIDEOS"
-msgstr ""
-
-msgid "READ MORE"
-msgstr ""
-
-msgid "IMMIGRATION PROGRAMS"
-msgstr ""
-
-msgid "Permanent Residency"
-msgstr ""
-
-msgid "next"
-msgstr ""
-
-msgid "prev"
-msgstr ""
-
-msgid "Contact us"
-msgstr ""
-
-msgid "send"
-msgstr ""
-
-msgid "name"
-msgstr ""
-
-msgid "message"
-msgstr ""
-
-msgid "email"
-msgstr ""
-
-msgid "Successfully submitted"
+msgid "Quick access"
 msgstr ""

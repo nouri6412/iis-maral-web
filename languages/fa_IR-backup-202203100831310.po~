@@ -105,7 +105,7 @@ msgid "send"
 msgstr "ارسال"
 
 msgid "Services"
-msgstr "خدمات"
+msgstr ""
 
 #: inc/ajax/contact.php:44
 msgid "Successfully submitted"
