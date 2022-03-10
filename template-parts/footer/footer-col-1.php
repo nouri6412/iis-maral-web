@@ -6,7 +6,7 @@ if (pll_current_language() == 'fa') {
 $footer = get_field("footer-".$lang_flag, 'option');
 ?>
 <div class="col-12 col-md-3 pe-md-3">
-    <a href="" class="d-flex justify-content-center"><img src=".<?php echo get_template_directory_uri(); ?>/assets/image/Rectangle-109.jpg" alt=""></a>
+    <a href="" class="d-flex justify-content-center"><img src="<?php  echo $footer["logo"] ?>" alt=""></a>
     <div>
         <p class=" p-2 fs-6"><?php  echo $footer["desc"] ?>
         </p>
