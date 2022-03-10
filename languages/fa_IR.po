@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-10 11:59+0000\n"
+"PO-Revision-Date: 2022-03-10 12:06+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -68,6 +68,9 @@ msgstr "ویدیو های معرفی برنامه های مهاجرتی"
 #: template-parts/homepage/homepage-resent-program.php:14
 msgid "IMMIGRATION PROGRAMS"
 msgstr "برنامه های مهاجرتی"
+
+msgid "LASTEST NEWS OF CANADA"
+msgstr "اخبار جدید کانادا"
 
 #: template-parts/homepage/homepage-contact.php:16
 #: template-parts/homepage/homepage-contact.php:45

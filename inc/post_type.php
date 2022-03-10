@@ -46,6 +46,53 @@ function iisgroup_post_type_contact()
 add_action('init', 'iisgroup_post_type_contact');
 
 
+///post type news
+
+function iisgroup_post_type_news()
+{
+
+    $supports = array(
+        'title', // post title
+        'thumbnail', // featured images
+		'editor',
+		'excerpt',
+        'custom-fields', // custom fields
+        'post-formats', // post formats
+		
+    );
+
+    $labels = array(
+        'name' => _x('اخبار', 'plural'),
+        'singular_name' => _x('اخبار', 'singular'),
+        'menu_name' => _x('اخبار', 'admin menu'),
+        'name_admin_bar' => _x('اخبار', 'admin bar'),
+        'add_new' => _x('اخبار جدید', 'add new'),
+        'add_new_item' => "ثبت اخبار",
+        'new_item' => "اخبار جدید",
+        'edit_item' => "ویرایش اخبار",
+        'view_item' => "مشاهده اخبار",
+        'all_items' => "همه اخبار",
+        'search_items' => "جستجوی اخبار",
+        'not_found' => "یافت نشد"
+    );
+
+    $args = array(
+        'supports' => $supports,
+        'labels' => $labels,
+        'public' => true,
+        'query_var' => true,
+        'rewrite' => array('slug' => 'news'),
+        'has_archive' => true,
+        'hierarchical' => false,
+        // 'capabilities' => array(
+        //     'create_posts' => 'do_not_allow'
+        // )
+    );
+    register_post_type('news', $args);
+}
+add_action('init', 'iisgroup_post_type_news');
+
+
 ///post type immigration
 
 function iisgroup_post_type_immigration()
