@@ -1,14 +1,13 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 11:59+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: \n"
-"Language: \n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: 2022-03-08 06:30+0000\n"
+"PO-Revision-Date: 2022-03-10 10:06+0000\n"
+"Last-Translator: \n"
+"Language-Team: فارسی\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -28,10 +27,13 @@ msgstr ""
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr ""
 
+msgid "Blog"
+msgstr "بلاگ"
+
 #: template-parts/homepage/homepage-contact.php:12
 #: template-parts/homepage/homepage-contact.php:41
 msgid "Contact us"
-msgstr ""
+msgstr "تماس با ما"
 
 #: classes/class-custom-theme-walker-comment.php:89
 msgid "Edit"
@@ -40,12 +42,12 @@ msgstr ""
 #: template-parts/homepage/homepage-contact.php:17
 #: template-parts/homepage/homepage-contact.php:46
 msgid "email"
-msgstr ""
+msgstr "ایمیل"
 
 #: template-parts/menu/menu-content.php:17
 #: template-parts/menu/menu-content.php:50
 msgid "Follow us"
-msgstr ""
+msgstr "ما را دنبال کنید"
 
 #. Name of the template
 msgid "homepage"
@@ -57,59 +59,65 @@ msgstr ""
 
 #: archive-video.php:28 template-parts/homepage/homepage-resent-video.php:14
 msgid "IMMIGRATION PROGRAM INTRODUCTION VIDEOS"
-msgstr ""
+msgstr "ویدیو های معرفی برنامه های مهاجرتی"
 
 #: archive-program.php:28
 #: template-parts/homepage/homepage-resent-program.php:14
 msgid "IMMIGRATION PROGRAMS"
-msgstr ""
+msgstr "برنامه های مهاجرتی"
 
 #: template-parts/homepage/homepage-contact.php:16
 #: template-parts/homepage/homepage-contact.php:45
 msgid "message"
-msgstr ""
+msgstr "پیام"
 
 #: template-parts/homepage/homepage-resent-immigration.php:20
 #: template-parts/homepage/homepage-resent-program.php:33
 #: template-parts/homepage/homepage-resent-video.php:33
 #: template-parts/program/program-item.php:5
 msgid "more"
-msgstr ""
+msgstr "بیشتر"
 
 #: template-parts/homepage/homepage-contact.php:15
 #: template-parts/homepage/homepage-contact.php:44
 msgid "name"
-msgstr ""
+msgstr "نام"
 
 #: archive-immigration.php:55 archive-program.php:55 archive-video.php:55
 msgid "next"
-msgstr ""
+msgstr "بعدی"
 
 #: template-parts/homepage/homepage-resent-program.php:16
 msgid "Permanent Residency"
-msgstr ""
+msgstr "اقامت دائم"
 
 #: archive-immigration.php:56 archive-program.php:56 archive-video.php:56
 msgid "prev"
-msgstr ""
+msgstr "قبلی"
+
+msgid "Quick access"
+msgstr "دسترسی سریع"
 
 #: template-parts/homepage/homepage-about.php:23
 msgid "READ MORE"
-msgstr ""
+msgstr "اطلاعات بیشتر"
 
 #: template-parts/homepage/homepage-contact.php:24
 #: template-parts/homepage/homepage-contact.php:53
 msgid "send"
-msgstr ""
+msgstr "ارسال"
+
+msgid "Services"
+msgstr "خدمات"
 
 #: inc/ajax/contact.php:44
 msgid "Successfully submitted"
-msgstr ""
+msgstr "با موفقیت ارسال گردید"
 
 #: archive-immigration.php:28
 #: template-parts/homepage/homepage-resent-immigration.php:17
 msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
-msgstr ""
+msgstr "وب سایت های سازمان مهاجرتی iss"
 
 #: classes/class-custom-theme-walker-comment.php:96
 msgid "Your comment is awaiting moderation."
@@ -147,16 +155,4 @@ msgstr ""
 
 #. Name of the template
 msgid "ویدئو ها"
-msgstr ""
-
-msgid "Services"
-msgstr ""
-
-msgid "Quick access"
-msgstr ""
-
-msgid "Blog"
-msgstr ""
-
-msgid "ago"
 msgstr ""

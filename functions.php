@@ -127,7 +127,7 @@ foreach (glob(get_template_directory() . "/inc/ajax/*.php") as $filename) {
 function time_ago_date($the_date)
 {
 
-    return human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . 'پیش';
+    return human_time_diff(get_the_time('U'), current_time('timestamp')) . ' ' . __('ago','iisgroup');
 }
 add_filter('get_the_date', 'time_ago_date', 10, 1);
 

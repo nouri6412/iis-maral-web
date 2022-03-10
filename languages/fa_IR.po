@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-10 08:31+0000\n"
+"PO-Revision-Date: 2022-03-10 11:59+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -26,6 +26,12 @@ msgstr ""
 #, php-format
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr ""
+
+msgid "ago"
+msgstr "پیش"
+
+msgid "Blog"
+msgstr "بلاگ"
 
 #: template-parts/homepage/homepage-contact.php:12
 #: template-parts/homepage/homepage-contact.php:41
