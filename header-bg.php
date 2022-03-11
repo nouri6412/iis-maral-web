@@ -14,7 +14,9 @@
 		<?php
 		get_template_part('template-parts/header/header', 'content');
 		?>
+		<div class="p-4 bg-gray">
 
+		</div>
 	</header>
 
 

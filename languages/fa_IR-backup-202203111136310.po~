@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-11 10:15+0000\n"
+"PO-Revision-Date: 2022-03-11 11:12+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -39,6 +39,12 @@ msgstr "ویزای کانادا"
 msgid "Cities in Canada"
 msgstr "شهرهای کانادا"
 
+msgid "Comment"
+msgstr "دیدگاه"
+
+msgid "Comments"
+msgstr "دیدگاه ها"
+
 #: template-parts/homepage/homepage-contact.php:12
 #: template-parts/homepage/homepage-contact.php:41
 msgid "Contact us"
@@ -57,6 +63,9 @@ msgstr "تحصیلی"
 #: template-parts/homepage/homepage-contact.php:46
 msgid "email"
 msgstr "ایمیل"
+
+msgid "FAQ"
+msgstr "سوالات متداول"
 
 #: template-parts/menu/menu-content.php:17
 #: template-parts/menu/menu-content.php:50
@@ -116,9 +125,18 @@ msgstr "نام"
 msgid "next"
 msgstr "بعدی"
 
+msgid "One Comment"
+msgstr "یک دیدگاه"
+
 #: template-parts/homepage/homepage-resent-program.php:16
 msgid "Permanent Residency"
 msgstr "اقامت دائم"
+
+msgid "Post a new comment"
+msgstr "یک دیدگاه ارسال کنید"
+
+msgid "Posting a comment is restricted"
+msgstr "ثبت دیدگاه محدود شده است"
 
 #: archive-immigration.php:56 archive-program.php:56 archive-video.php:56
 msgid "prev"
@@ -147,6 +165,9 @@ msgstr "ارسال"
 msgid "Services"
 msgstr "خدمات"
 
+msgid "Share this"
+msgstr "این مطلب را به اشتراک بگذارید"
+
 #: inc/ajax/contact.php:44
 msgid "Successfully submitted"
 msgstr "با موفقیت ارسال گردید"
@@ -154,20 +175,28 @@ msgstr "با موفقیت ارسال گردید"
 msgid "Table of Contents"
 msgstr "فهرست مطالب"
 
+msgid "Website"
+msgstr "وب سایت"
+
 #: archive-immigration.php:28
 #: template-parts/homepage/homepage-resent-immigration.php:17
 msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
 msgstr "وب سایت های سازمان مهاجرتی iss"
 
+msgid "Write a comment"
+msgstr "ارسال دیدگاه"
+
 #: classes/class-custom-theme-walker-comment.php:96
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "نظر شما در انتظار تایید است."
 
 #: classes/class-custom-theme-walker-comment.php:98
 msgid ""
 "Your comment is awaiting moderation. This is a preview; your comment will be "
 "visible after it has been approved."
 msgstr ""
+"نظر شما در انتظار تایید است. این یک پیش نمایش است. نظر شما پس از تایید قابل "
+"مشاهده خواهد بود."
 
 #. Name of the template
 msgid "آخرین مطالب"

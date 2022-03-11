@@ -1,1 +1,1 @@
-<h2>چیزی برای نمایش وجود ندارد</h2>
+<h2><?php _e('There is nothing to show','iisgroup') ?></h2>
