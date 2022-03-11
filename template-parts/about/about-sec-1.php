@@ -3,7 +3,7 @@ $lang_flag = "en";
 if (pll_current_language() == 'fa') {
     $lang_flag = "fa";
 }
-$header = get_field("about");
+$header = get_field("sec-1");
 ?>
 <!--  -->
 <section class="bg-light d-none d-lg-block" style="min-height: 600px;background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-58.png);background-position: top right;background-repeat: no-repeat;">
