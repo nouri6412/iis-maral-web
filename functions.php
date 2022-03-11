@@ -74,8 +74,8 @@ require get_template_directory() . '/classes/class-custom-theme-walker-comment.p
 if (function_exists('acf_add_options_page')) {
 
     acf_add_options_page(array(
-        'page_title'     => 'تنظیمات  قالب iis  group',
-        'menu_title'    => 'تنظیمات  قالب iis  group',
+        'page_title'     => 'تنظیمات  قالب iss  group',
+        'menu_title'    => 'تنظیمات  قالب iss  group',
         'menu_slug'     => 'iis-theme-general-settings',
         'capability'    => 'edit_posts',
         'redirect'        => false

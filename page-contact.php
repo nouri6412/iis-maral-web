@@ -14,148 +14,46 @@
 
 get_header();
 ?>
-<!-- Content -->
-<div class="page-content bg-white">
-    <?php
 
-    // Start the Loop.
-    while (have_posts()) :
-        the_post();
-    ?>
-        <!-- inner page banner -->
-        <div class="dez-bnr-inr overlay-black-middle" style="background-image:url(<?php the_post_thumbnail_url(); ?>);">
-            <div class="container">
-                <div class="dez-bnr-inr-entry">
-                    <h1 class="text-white"><?php echo get_the_title(); ?></h1>
-                    <!-- Breadcrumb row -->
-                    <div class="breadcrumb-row">
-                        <ul class="list-inline">
-                            <li><a title="<?php echo get_bloginfo("name"); ?>" href="<?php echo home_url(); ?>">خانه</a></li>
-                            <li><?php echo get_the_title(); ?></li>
-                        </ul>
-                    </div>
-                    <!-- Breadcrumb row END -->
-                </div>
-            </div>
-        </div>
-        <!-- inner page banner END -->
-        <!-- contact area -->
-        <div class="section-full content-inner bg-white contact-style-1">
-            <div class="container">
-                <div class="row">
-                    <!-- right part start -->
-                    <div class="col-lg-4 col-md-6 d-lg-flex d-md-flex">
-                        <div class="p-a30 border m-b30 contact-area border-1 align-self-stretch radius-sm">
-                            <h4 class="m-b10">ارتباط سریع</h4>
-                            <p>اگر س سوالی دارید، از اطلاعات تماس زیر استفاده کنید.</p>
-                            <ul class="no-margin">
-                                <li class="icon-bx-wraper left m-b30">
-                                    <div class="icon-bx-xs border-1"> <a href="#" class="icon-cell"><i class="ti-location-pin"></i></a> </div>
-                                    <div class="icon-content">
-                                        <h6 class="text-uppercase m-tb0 dez-tilte">آدرس:</h6>
-                                        <p><?php echo get_field("address") ?></p>
-                                    </div>
-                                </li>
-                                <li class="icon-bx-wraper left  m-b30">
-                                    <div class="icon-bx-xs border-1"> <a href="#" class="icon-cell"><i class="ti-email"></i></a> </div>
-                                    <div class="icon-content">
-                                        <h6 class="text-uppercase m-tb0 dez-tilte">ایمیل:</h6>
-                                        <p><?php echo get_field("email") ?></p>
-                                    </div>
-                                </li>
-                                <li class="icon-bx-wraper left">
-                                    <div class="icon-bx-xs border-1"> <a href="#" class="icon-cell"><i class="ti-mobile"></i></a> </div>
-                                    <div class="icon-content">
-                                        <h6 class="text-uppercase m-tb0 dez-tilte">تلفن</h6>
-                                        <p><?php echo get_field("tel") ?></p>
-                                    </div>
-                                </li>
-                            </ul>
-                            <div class="m-t20">
-                                <ul class="dez-social-icon dez-social-icon-lg">
-                                    <?php
-                                    $data_sosial = get_field("footer-col-1", 'option');
-                                    ?>
-                                    <?php
-                                    if (isset($data_sosial["sosial"]) && is_array($data_sosial["sosial"])) {
-                                        foreach ($data_sosial["sosial"] as $item) {
-                                    ?>
-                                            <li><a href="<?php echo $item["link"]; ?>" class="fa fa-<?php echo $item["icon"]; ?> bg-primary"></a></li>
-                                    <?php
-                                        }
-                                    }
-                                    ?>
-                                </ul>
-                            </div>
+<section>
+    <section class="bg-image pt-3 pt-lg-0" style="min-height: 400px;">
+        <div class="container position-relative">
+            <div class="col-11 m-auto p-lg-4 pt-5">
+                <div class="row row-cols-1 row-cols-md-2 align-items-center">
+                    <div class="col-lg-8 pt-5 pb-5">
+                        <div class="">
+                            <h3 class="border-blue font-bolder"><?php _e('Contact us', 'iisgroup') ?></h3>
                         </div>
-                    </div>
-                    <!-- right part END -->
-                    <!-- Left part start -->
-                    <div class="col-lg-4 col-md-6">
-                        <div class="p-a30 m-b30 radius-sm bg-gray clearfix">
-
-                            <h4>ارسال پیام</h4>
-                            <div id="dzFormMsg-error" class="dzFormMsg error"></div>
-                            <input type="hidden" value="Contact" name="dzToDo">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <input id="dzName" name="dzName" type="text" required="" class="form-control" placeholder="نام">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <input id="dzEmail" name="dzEmail" type="email" class="form-control" required="" placeholder="ایمیل">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="form-group">
-                                        <div class="input-group">
-                                            <textarea id="dzMessage" name="dzMessage" rows="4" class="form-control" required="" placeholder="پیام شما..."></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="recaptcha-bx">
-                                        <div class="input-group">
-                                            <div class="g-recaptcha" data-sitekey="6LefsVUUAAAAADBPsLZzsNnETChealv6PYGzv3ZN" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                                            <input class="form-control d-none" style="display:none;" data-recaptcha="true" required="" data-error="Please complete the Captcha">
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12">
-                                    <div class="loading-ajax"></div>
-                                    <div id="dzFormMsg-doned" class="dzFormMsg doned"></div>
-                                    <button onclick="
-                                    ajax_submit_mbm_contact_form(
+                        <div class="col pt-5 pb-5 form">
+                        <div id="dzFormMsg-error" class="dzFormMsg error"></div>
+                        <div class="col-12"><input id="dzName" name="dzName" type="text" placeholder="<?php _e('name', 'iisgroup') ?>"></div>
+                        <div class="col-12"><input id="dzMessage" name="dzMessage" type="text" placeholder="<?php _e('message', 'iisgroup') ?>"></div>
+                        <div class="col-12"><input id="dzEmail" name="dzEmail" type="email" placeholder="<?php _e('email', 'iisgroup') ?>"></div>
+                        <div class="text-end mt-2 col-11 pe-2"><button onclick="ajax_submit_mbm_contact_form(
                                     $('#dzName').val()
                                     ,$('#dzEmail').val()
                                     ,$('#dzMessage').val()
                                     ,$('#dzFormMsg-error')
                                     ,$('#dzFormMsg-doned')
-                                    ,$(this))
-                                    " name="submit" value="submit" class="site-button "> <span>ثبت</span> </button>
-                                </div>
-                            </div>
-
+                                    ,$(this))" class="btn btn-primary"><?php _e('send', 'iisgroup') ?></button>
+                        </div>
+                        <div class="loading-ajax"></div>
+                        <div id="dzFormMsg-doned" class="dzFormMsg doned"></div>
                         </div>
                     </div>
-                    <!-- Left part END -->
-                    <div class="col-lg-4 col-md-12 d-lg-flex m-b30">
-                        <iframe src="<?php echo get_field('api') ?>" style="border:0; width:100%; min-height:350px;" allowfullscreen=""></iframe>
+                    <div class="col-lg-4">
+                        <div>
+                            <div>
+                                <p><?php echo get_field("desc") ?></p>
+                            </div>
+                            <div class="d-flex align-items-center fs-6"><i class="fa fa-envelope text-primary fs-3 m-2" aria-hidden="true"></i><?php echo get_field("email") ?></div>
+                            <div class="mt-3 d-flex align-items-center fs-6"><i class="fa fa-phone text-primary fs-3 m-2" aria-hidden="true"></i><?php echo get_field("tel") ?></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- contact area  END -->
-    <?php
-    endwhile; // End the loop.
-    ?>
-</div>
-<!-- Content END-->
+    </section>
+</section>
 <?php
 get_footer();
