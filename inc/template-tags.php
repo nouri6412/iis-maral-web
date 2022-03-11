@@ -1,7 +1,7 @@
 <?php
 
 function ea_comment_textarea_placeholder( $args ) {
-	$args['comment_field']        = str_replace( 'textarea', 'textarea placeholder="نظر"', $args['comment_field'] );
+	$args['comment_field']        = str_replace( 'textarea', 'textarea placeholder="'.__('Comment','iisgroup').'"', $args['comment_field'] );
 	return $args;
 }
 add_filter( 'comment_form_defaults', 'ea_comment_textarea_placeholder' );
@@ -12,9 +12,9 @@ add_filter( 'comment_form_defaults', 'ea_comment_textarea_placeholder' );
  */
 function be_comment_form_fields( $fields ) {
 	foreach( $fields as &$field ) {
-		$field = str_replace( 'id="author"', 'id="author" placeholder="نام"', $field );
-		$field = str_replace( 'id="email"', 'id="email" placeholder="ایمیل"', $field );
-		$field = str_replace( 'id="url"', 'id="url" placeholder="نشانی سایت"', $field );
+		$field = str_replace( 'id="author"', 'id="author" placeholder="'.__('name','iisgroup').'"', $field );
+		$field = str_replace( 'id="email"', 'id="email" placeholder="'.__('email','iisgroup').'"', $field );
+		$field = str_replace( 'id="url"', 'id="url" placeholder="'.__('Website','iisgroup').'"', $field );
 	}
 	return $fields;
 }
@@ -34,8 +34,8 @@ function custome_theme_comment_form($order)
             array(
                 'logged_in_as' => null,
                 'title_reply'  => null,
-                'label_submit'  =>'ارسال نظر',
-                'class_submit'=>'submit site-button'    
+                'label_submit'  =>__('Write a comment','iisgroup'),
+                'class_submit'=>'submit site-button btn btn-primary'    
             )
         );
     }

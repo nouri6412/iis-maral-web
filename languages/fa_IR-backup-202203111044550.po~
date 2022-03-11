@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-10 08:31+0000\n"
+"PO-Revision-Date: 2022-03-11 10:42+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -27,6 +27,24 @@ msgstr ""
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr ""
 
+msgid "ago"
+msgstr "پیش"
+
+msgid "Blog"
+msgstr "بلاگ"
+
+msgid "Canadian visa"
+msgstr "ویزای کانادا"
+
+msgid "Cities in Canada"
+msgstr "شهرهای کانادا"
+
+msgid "Comment"
+msgstr "دیدگاه"
+
+msgid "Comments"
+msgstr "دیدگاه ها"
+
 #: template-parts/homepage/homepage-contact.php:12
 #: template-parts/homepage/homepage-contact.php:41
 msgid "Contact us"
@@ -35,6 +53,11 @@ msgstr "تماس با ما"
 #: classes/class-custom-theme-walker-comment.php:89
 msgid "Edit"
 msgstr ""
+
+msgid ""
+"educational\n"
+"                                                "
+msgstr "تحصیلی"
 
 #: template-parts/homepage/homepage-contact.php:17
 #: template-parts/homepage/homepage-contact.php:46
@@ -45,6 +68,9 @@ msgstr "ایمیل"
 #: template-parts/menu/menu-content.php:50
 msgid "Follow us"
 msgstr "ما را دنبال کنید"
+
+msgid "Home"
+msgstr "خانه"
 
 #. Name of the template
 msgid "homepage"
@@ -63,10 +89,22 @@ msgstr "ویدیو های معرفی برنامه های مهاجرتی"
 msgid "IMMIGRATION PROGRAMS"
 msgstr "برنامه های مهاجرتی"
 
+msgid "investment"
+msgstr "سرمایه گذاری"
+
+msgid "LASTEST NEWS OF CANADA"
+msgstr "اخبار جدید کانادا"
+
+msgid "Latest News"
+msgstr "آخرین اخبار"
+
 #: template-parts/homepage/homepage-contact.php:16
 #: template-parts/homepage/homepage-contact.php:45
 msgid "message"
 msgstr "پیام"
+
+msgid "Migration"
+msgstr "مهاجرت"
 
 #: template-parts/homepage/homepage-resent-immigration.php:20
 #: template-parts/homepage/homepage-resent-program.php:33
@@ -84,9 +122,15 @@ msgstr "نام"
 msgid "next"
 msgstr "بعدی"
 
+msgid "One Comment"
+msgstr "یک دیدگاه"
+
 #: template-parts/homepage/homepage-resent-program.php:16
 msgid "Permanent Residency"
 msgstr "اقامت دائم"
+
+msgid "Post a new comment"
+msgstr "یک دیدگاه ارسال کنید"
 
 #: archive-immigration.php:56 archive-program.php:56 archive-video.php:56
 msgid "prev"
@@ -98,6 +142,14 @@ msgstr "دسترسی سریع"
 #: template-parts/homepage/homepage-about.php:23
 msgid "READ MORE"
 msgstr "اطلاعات بیشتر"
+
+msgid "See all"
+msgstr "مشاهده همه"
+
+msgid ""
+"See all news\n"
+"                                                "
+msgstr "مشاهده همه اخبار"
 
 #: template-parts/homepage/homepage-contact.php:24
 #: template-parts/homepage/homepage-contact.php:53
@@ -111,6 +163,12 @@ msgstr "خدمات"
 msgid "Successfully submitted"
 msgstr "با موفقیت ارسال گردید"
 
+msgid "Table of Contents"
+msgstr "فهرست مطالب"
+
+msgid "Website"
+msgstr "وب سایت"
+
 #: archive-immigration.php:28
 #: template-parts/homepage/homepage-resent-immigration.php:17
 msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
@@ -118,13 +176,15 @@ msgstr "وب سایت های سازمان مهاجرتی iss"
 
 #: classes/class-custom-theme-walker-comment.php:96
 msgid "Your comment is awaiting moderation."
-msgstr ""
+msgstr "نظر شما در انتظار تایید است."
 
 #: classes/class-custom-theme-walker-comment.php:98
 msgid ""
 "Your comment is awaiting moderation. This is a preview; your comment will be "
 "visible after it has been approved."
 msgstr ""
+"نظر شما در انتظار تایید است. این یک پیش نمایش است. نظر شما پس از تایید قابل "
+"مشاهده خواهد بود."
 
 #. Name of the template
 msgid "آخرین مطالب"

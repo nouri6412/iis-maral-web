@@ -34,7 +34,7 @@ $discussion = custom_theme_get_discussion_data();
 				if ('1' == $discussion->responses) {
 					/* translators: %s: Post title. */
 					//printf( _x( 'One reply on &ldquo;%s&rdquo;', 'comments title', 'twentynineteen' ), get_the_title() );
-					echo '<p>' . 'یک نظر' . '<p>';
+					echo '<p>' . __('One Comment','iisgroup') . '<p>';
 				} else {
 					// printf(
 					// 	/* translators: 1: Number of comments, 2: Post title. */
@@ -48,7 +48,7 @@ $discussion = custom_theme_get_discussion_data();
 					// 	number_format_i18n( $discussion->responses ),
 					// 	get_the_title()
 					// );
-					echo '<p>' . number_format_i18n($discussion->responses) . ' ' . ' نظر' . '<p>';
+					echo '<p>' . number_format_i18n($discussion->responses) . ' ' . __('Comment','iisgroup') . '<p>';
 				}
 			}
 			?>
@@ -75,18 +75,18 @@ $discussion = custom_theme_get_discussion_data();
 		</ol><!-- .comment-list -->
 		<?php
 		if (comments_open()) {
-			echo '<h4>'.'ارسال نظر جدید'.'</h4>';
+			echo '<h4>'.__('Post a new comment','iisgroup').'</h4>';
 			custome_theme_comment_form('desc');
 		}
 		// Show comment navigation.
 		if (have_comments()) :
 			$prev_icon     = custom_theme_get_icon_svg('chevron_left', 22);
 			$next_icon     = custom_theme_get_icon_svg('chevron_right', 22);
-			$comments_text = 'نظرات';
+			$comments_text = __('Comments','iisgroup');
 			the_comments_navigation(
 				array(
-					'prev_text' => sprintf('%s <span class="nav-prev-text"><span class="primary-text">%s</span> <span class="secondary-text">%s</span></span>', $prev_icon, 'قبلی', 'نظرات'),
-					'next_text' => sprintf('<span class="nav-next-text"><span class="primary-text">%s</span> <span class="secondary-text">%s</span></span> %s', 'بعدی', 'نظرات', $next_icon),
+					'prev_text' => sprintf('%s <span class="nav-prev-text"><span class="primary-text">%s</span> <span class="secondary-text">%s</span></span>', $prev_icon, __('prev','iisgroup'), __('Comments','iisgroup')),
+					'next_text' => sprintf('<span class="nav-next-text"><span class="primary-text">%s</span> <span class="secondary-text">%s</span></span> %s',  __('next','iisgroup'), __('Comments','iisgroup'), $next_icon),
 				)
 			);
 		endif;
@@ -95,7 +95,7 @@ $discussion = custom_theme_get_discussion_data();
 		if (comments_open() && 'asc' === strtolower(get_option('comment_order', 'asc'))) :
 		?>
 			<div class="comment-form-flex">
-				<span class="screen-reader-text"><?php 'نظر بدهید'; ?></span>
+				<span class="screen-reader-text"><?php __('Write a comment','iisgroup'); ?></span>
 				<?php custome_theme_comment_form('asc'); ?>
 			
 			</div>
@@ -106,7 +106,7 @@ $discussion = custom_theme_get_discussion_data();
 		if (!comments_open()) :
 		?>
 			<p class="no-comments">
-				<?php echo 'ارسال نظر محدود شده است'; ?>
+				<?php echo __('Posting a comment is restricted','iisgroup'); ?>
 			</p>
 	<?php
 		endif;

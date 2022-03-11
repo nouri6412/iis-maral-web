@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-10 12:05+0000\n"
+"POT-Creation-Date: 2022-03-11 11:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -162,4 +162,65 @@ msgid "ago"
 msgstr ""
 
 msgid "LASTEST NEWS OF CANADA"
+msgstr ""
+
+msgid "Latest News"
+msgstr ""
+
+msgid ""
+"See all news\n"
+"                                                "
+msgstr ""
+
+msgid ""
+"educational\n"
+"                                                "
+msgstr ""
+
+msgid "Migration"
+msgstr ""
+
+msgid "investment"
+msgstr ""
+
+msgid "Canadian visa"
+msgstr ""
+
+msgid "Cities in Canada"
+msgstr ""
+
+msgid "See all"
+msgstr ""
+
+msgid "Table of Contents"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "One Comment"
+msgstr ""
+
+msgid "Post a new comment"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Posting a comment is restricted"
+msgstr ""
+
+msgid "Write a comment"
+msgstr ""
+
+msgid "Share this"
+msgstr ""
+
+msgid "FAQ"
 msgstr ""

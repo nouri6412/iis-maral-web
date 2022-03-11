@@ -484,6 +484,9 @@ main {
     -ms-border-radius: 8px 8px 8px 8px;
     -o-border-radius: 8px 8px 8px 8px;
 }
+.form input[type="submit"] {
+    width: 145px !important;
+}
 
 .form input::placeholder {
     color: #B3B5BB;

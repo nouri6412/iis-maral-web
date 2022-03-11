@@ -7,8 +7,16 @@
  *
  * @package WordPress
  * @subpackage iisgroup
+ *  * Template Name: شهرهای کانادا
  */
-
+$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+$args = array(
+	'post_type' => 'city',
+	'post_status' => 'publish',
+	'posts_per_page' => 9,
+	'paged' => $paged
+);
+$the_query = new WP_Query($args);
 get_header();
 ?>
 <div class="bg-image pt-5 pb-5" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-305.jpg);">
@@ -17,16 +25,16 @@ get_header();
 			<section>
 				<div class="bg-white p-4 pt-5">
 					<div class="text-center">
-						<h5 class="text-center font-bold"><?php _e('Blog', 'iisgroup') ?>
+						<h5 class="text-center font-bold"><?php _e('LASTEST NEWS OF CANADA','iisgroup') ?>
 						</h5>
 					</div>
-					<div class="row row-cols-1 row-cols-md-2 justify-content-between">
+					<div class="row row-cols-1 row-cols-md-3 populated justify-content-between">
 						<?php if ($the_query->have_posts()) { ?>
 							<?php
 							// Start the Loop.
 							while ($the_query->have_posts()) :
 								$the_query->the_post();
-								get_template_part('template-parts/blog/blog', 'item');
+								get_template_part('template-parts/news/news', 'item');
 
 							// End the loop.
 							endwhile;

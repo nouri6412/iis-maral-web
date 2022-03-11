@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-10 08:31+0000\n"
+"PO-Revision-Date: 2022-03-11 10:15+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -27,6 +27,18 @@ msgstr ""
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr ""
 
+msgid "ago"
+msgstr "پیش"
+
+msgid "Blog"
+msgstr "بلاگ"
+
+msgid "Canadian visa"
+msgstr "ویزای کانادا"
+
+msgid "Cities in Canada"
+msgstr "شهرهای کانادا"
+
 #: template-parts/homepage/homepage-contact.php:12
 #: template-parts/homepage/homepage-contact.php:41
 msgid "Contact us"
@@ -35,6 +47,11 @@ msgstr "تماس با ما"
 #: classes/class-custom-theme-walker-comment.php:89
 msgid "Edit"
 msgstr ""
+
+msgid ""
+"educational\n"
+"                                                "
+msgstr "تحصیلی"
 
 #: template-parts/homepage/homepage-contact.php:17
 #: template-parts/homepage/homepage-contact.php:46
@@ -45,6 +62,9 @@ msgstr "ایمیل"
 #: template-parts/menu/menu-content.php:50
 msgid "Follow us"
 msgstr "ما را دنبال کنید"
+
+msgid "Home"
+msgstr "خانه"
 
 #. Name of the template
 msgid "homepage"
@@ -63,10 +83,22 @@ msgstr "ویدیو های معرفی برنامه های مهاجرتی"
 msgid "IMMIGRATION PROGRAMS"
 msgstr "برنامه های مهاجرتی"
 
+msgid "investment"
+msgstr "سرمایه گذاری"
+
+msgid "LASTEST NEWS OF CANADA"
+msgstr "اخبار جدید کانادا"
+
+msgid "Latest News"
+msgstr "آخرین اخبار"
+
 #: template-parts/homepage/homepage-contact.php:16
 #: template-parts/homepage/homepage-contact.php:45
 msgid "message"
 msgstr "پیام"
+
+msgid "Migration"
+msgstr "مهاجرت"
 
 #: template-parts/homepage/homepage-resent-immigration.php:20
 #: template-parts/homepage/homepage-resent-program.php:33
@@ -99,17 +131,28 @@ msgstr "دسترسی سریع"
 msgid "READ MORE"
 msgstr "اطلاعات بیشتر"
 
+msgid "See all"
+msgstr "مشاهده همه"
+
+msgid ""
+"See all news\n"
+"                                                "
+msgstr "مشاهده همه اخبار"
+
 #: template-parts/homepage/homepage-contact.php:24
 #: template-parts/homepage/homepage-contact.php:53
 msgid "send"
 msgstr "ارسال"
 
 msgid "Services"
-msgstr ""
+msgstr "خدمات"
 
 #: inc/ajax/contact.php:44
 msgid "Successfully submitted"
 msgstr "با موفقیت ارسال گردید"
+
+msgid "Table of Contents"
+msgstr "فهرست مطالب"
 
 #: archive-immigration.php:28
 #: template-parts/homepage/homepage-resent-immigration.php:17

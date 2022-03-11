@@ -21,6 +21,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
 <script src="<?php echo get_template_directory_uri(); ?>/assets/plugin/slick-animation.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/assets/js/share.js"></script>
 
 <script>
     $('.single-item').slick({
@@ -36,6 +37,21 @@
     document.querySelector('.navbar-toggler').addEventListener('click', () => {
         document.querySelector('.navbar-toggler-icon').classList.toggle('navbar-toggler-icon2')
     })
+            // select all accordion items
+            const accItems = document.querySelectorAll(".accordion__item");
+
+// add a click event for all items
+accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
+
+function toggleAcc() {
+    // remove active class from all items exept the current item (this)
+    accItems.forEach((item) => item != this ? item.classList.remove("accordion__item--active") : null);
+
+    // toggle active class on current item
+    if (this.classList != "accordion__item--active") {
+        this.classList.toggle("accordion__item--active");
+    }
+}
 </script>
 <?php wp_footer(); ?>
 </body>

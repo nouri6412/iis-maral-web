@@ -1,13 +1,14 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-10 11:59+0000\n"
-"Last-Translator: \n"
-"Language-Team: فارسی\n"
-"Language: fa_IR\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"POT-Creation-Date: 2022-03-11 10:43+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -27,16 +28,10 @@ msgstr ""
 msgid "%s <span class=\"screen-reader-text says\">says:</span>"
 msgstr ""
 
-msgid "ago"
-msgstr "پیش"
-
-msgid "Blog"
-msgstr "بلاگ"
-
 #: template-parts/homepage/homepage-contact.php:12
 #: template-parts/homepage/homepage-contact.php:41
 msgid "Contact us"
-msgstr "تماس با ما"
+msgstr ""
 
 #: classes/class-custom-theme-walker-comment.php:89
 msgid "Edit"
@@ -45,12 +40,12 @@ msgstr ""
 #: template-parts/homepage/homepage-contact.php:17
 #: template-parts/homepage/homepage-contact.php:46
 msgid "email"
-msgstr "ایمیل"
+msgstr ""
 
 #: template-parts/menu/menu-content.php:17
 #: template-parts/menu/menu-content.php:50
 msgid "Follow us"
-msgstr "ما را دنبال کنید"
+msgstr ""
 
 #. Name of the template
 msgid "homepage"
@@ -62,65 +57,59 @@ msgstr ""
 
 #: archive-video.php:28 template-parts/homepage/homepage-resent-video.php:14
 msgid "IMMIGRATION PROGRAM INTRODUCTION VIDEOS"
-msgstr "ویدیو های معرفی برنامه های مهاجرتی"
+msgstr ""
 
 #: archive-program.php:28
 #: template-parts/homepage/homepage-resent-program.php:14
 msgid "IMMIGRATION PROGRAMS"
-msgstr "برنامه های مهاجرتی"
+msgstr ""
 
 #: template-parts/homepage/homepage-contact.php:16
 #: template-parts/homepage/homepage-contact.php:45
 msgid "message"
-msgstr "پیام"
+msgstr ""
 
 #: template-parts/homepage/homepage-resent-immigration.php:20
 #: template-parts/homepage/homepage-resent-program.php:33
 #: template-parts/homepage/homepage-resent-video.php:33
 #: template-parts/program/program-item.php:5
 msgid "more"
-msgstr "بیشتر"
+msgstr ""
 
 #: template-parts/homepage/homepage-contact.php:15
 #: template-parts/homepage/homepage-contact.php:44
 msgid "name"
-msgstr "نام"
+msgstr ""
 
 #: archive-immigration.php:55 archive-program.php:55 archive-video.php:55
 msgid "next"
-msgstr "بعدی"
+msgstr ""
 
 #: template-parts/homepage/homepage-resent-program.php:16
 msgid "Permanent Residency"
-msgstr "اقامت دائم"
+msgstr ""
 
 #: archive-immigration.php:56 archive-program.php:56 archive-video.php:56
 msgid "prev"
-msgstr "قبلی"
-
-msgid "Quick access"
-msgstr "دسترسی سریع"
+msgstr ""
 
 #: template-parts/homepage/homepage-about.php:23
 msgid "READ MORE"
-msgstr "اطلاعات بیشتر"
+msgstr ""
 
 #: template-parts/homepage/homepage-contact.php:24
 #: template-parts/homepage/homepage-contact.php:53
 msgid "send"
-msgstr "ارسال"
-
-msgid "Services"
-msgstr "خدمات"
+msgstr ""
 
 #: inc/ajax/contact.php:44
 msgid "Successfully submitted"
-msgstr "با موفقیت ارسال گردید"
+msgstr ""
 
 #: archive-immigration.php:28
 #: template-parts/homepage/homepage-resent-immigration.php:17
 msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
-msgstr "وب سایت های سازمان مهاجرتی iss"
+msgstr ""
 
 #: classes/class-custom-theme-walker-comment.php:96
 msgid "Your comment is awaiting moderation."
@@ -158,4 +147,74 @@ msgstr ""
 
 #. Name of the template
 msgid "ویدئو ها"
+msgstr ""
+
+msgid "Services"
+msgstr ""
+
+msgid "Quick access"
+msgstr ""
+
+msgid "Blog"
+msgstr ""
+
+msgid "ago"
+msgstr ""
+
+msgid "LASTEST NEWS OF CANADA"
+msgstr ""
+
+msgid "Latest News"
+msgstr ""
+
+msgid ""
+"See all news\n"
+"                                                "
+msgstr ""
+
+msgid ""
+"educational\n"
+"                                                "
+msgstr ""
+
+msgid "Migration"
+msgstr ""
+
+msgid "investment"
+msgstr ""
+
+msgid "Canadian visa"
+msgstr ""
+
+msgid "Cities in Canada"
+msgstr ""
+
+msgid "See all"
+msgstr ""
+
+msgid "Table of Contents"
+msgstr ""
+
+msgid "Home"
+msgstr ""
+
+msgid "Website"
+msgstr ""
+
+msgid "Comment"
+msgstr ""
+
+msgid "One Comment"
+msgstr ""
+
+msgid "Post a new comment"
+msgstr ""
+
+msgid "Comments"
+msgstr ""
+
+msgid "Posting a comment is restricted"
+msgstr ""
+
+msgid "Write a comment"
 msgstr ""

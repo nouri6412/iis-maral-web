@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-11 11:12+0000\n"
+"PO-Revision-Date: 2022-03-11 10:44+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -63,9 +63,6 @@ msgstr "تحصیلی"
 #: template-parts/homepage/homepage-contact.php:46
 msgid "email"
 msgstr "ایمیل"
-
-msgid "FAQ"
-msgstr "سوالات متداول"
 
 #: template-parts/menu/menu-content.php:17
 #: template-parts/menu/menu-content.php:50
@@ -164,9 +161,6 @@ msgstr "ارسال"
 
 msgid "Services"
 msgstr "خدمات"
-
-msgid "Share this"
-msgstr "این مطلب را به اشتراک بگذارید"
 
 #: inc/ajax/contact.php:44
 msgid "Successfully submitted"

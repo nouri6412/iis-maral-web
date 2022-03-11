@@ -93,6 +93,53 @@ function iisgroup_post_type_news()
 add_action('init', 'iisgroup_post_type_news');
 
 
+///post type city
+
+function iisgroup_post_type_city()
+{
+
+    $supports = array(
+        'title', // post title
+        'thumbnail', // featured images
+		'editor',
+		'excerpt',
+        'custom-fields', // custom fields
+        'post-formats', // post formats
+		
+    );
+
+    $labels = array(
+        'name' => _x('شهر های کانادا', 'plural'),
+        'singular_name' => _x('شهر های کانادا', 'singular'),
+        'menu_name' => _x('شهر های کانادا', 'admin menu'),
+        'name_admin_bar' => _x('شهر های کانادا', 'admin bar'),
+        'add_new' => _x('شهر های کانادا جدید', 'add new'),
+        'add_new_item' => "ثبت شهر های کانادا",
+        'new_item' => "شهر های کانادا جدید",
+        'edit_item' => "ویرایش شهر های کانادا",
+        'view_item' => "مشاهده شهر های کانادا",
+        'all_items' => "همه شهر های کانادا",
+        'search_items' => "جستجوی شهر های کانادا",
+        'not_found' => "یافت نشد"
+    );
+
+    $args = array(
+        'supports' => $supports,
+        'labels' => $labels,
+        'public' => true,
+        'query_var' => true,
+        'rewrite' => array('slug' => 'city'),
+        'has_archive' => true,
+        'hierarchical' => false,
+        // 'capabilities' => array(
+        //     'create_posts' => 'do_not_allow'
+        // )
+    );
+    register_post_type('city', $args);
+}
+add_action('init', 'iisgroup_post_type_city');
+
+
 ///post type immigration
 
 function iisgroup_post_type_immigration()
