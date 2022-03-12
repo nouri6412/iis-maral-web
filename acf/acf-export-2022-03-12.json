@@ -1448,6 +1448,655 @@
         "description": ""
     },
     {
+        "key": "group_622c39b4221aa",
+        "title": "iss فرم ارزیابی مهاجرت",
+        "fields": [
+            {
+                "key": "field_622c3a172bc0e",
+                "label": "FIRST NAME",
+                "name": "first_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3a482bc0f",
+                "label": "FAMILY NAME",
+                "name": "family_name",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3a532bc10",
+                "label": "CURRENT ADDRESS",
+                "name": "current_address",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3a5c2bc11",
+                "label": "TELEPHONE",
+                "name": "telephone",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3a682bc12",
+                "label": "E-MAIL",
+                "name": "e-mail",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3a742bc13",
+                "label": "DATE OF BIRTH",
+                "name": "date_of_birth",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3a7c2bc14",
+                "label": "CITY AND COUNTRY OF BIRTH",
+                "name": "city_and_country_of_birth",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3a872bc15",
+                "label": "CURRENT MARITAL STATUS",
+                "name": "current_marital_status",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "single": "single",
+                    "married": "married"
+                },
+                "default_value": false,
+                "allow_null": 0,
+                "multiple": 0,
+                "ui": 0,
+                "return_format": "value",
+                "translations": "copy_once",
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_622c3a922bc16",
+                "label": "NUMBER OF DEPENDENTS",
+                "name": "number_of_dependents",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3aa62bc17",
+                "label": "INSTITUTION DATE COMPLETE",
+                "name": "institution_date_complete",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3aae2bc18",
+                "label": "NAME OF THE UNIVERSITY OR COLLAGE",
+                "name": "name_of_the_university_or_collage",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3ad12bc1c",
+                "label": "PROGRAM",
+                "name": "program",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b392bc1d",
+                "label": "PROFESSIONAL AFFILIATION",
+                "name": "professional_affiliation",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b412bc1e",
+                "label": "NAME OF THE CERTIFICATE",
+                "name": "name_of_the_certificate",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b532bc1f",
+                "label": "COMPANY FROM",
+                "name": "company_from",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b5b2bc20",
+                "label": "COMPANY TO",
+                "name": "company_to",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b642bc21",
+                "label": "OCCUPATION",
+                "name": "occupation",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b6f2bc22",
+                "label": "CITY\/COUNTRY",
+                "name": "citycountry",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b802bc23",
+                "label": "ENGLISH LANGUAGE SPEAK",
+                "name": "english_language_speak",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b872bc24",
+                "label": "ENGLISH LANGUAGE READ",
+                "name": "english_language_read",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b8e2bc25",
+                "label": "ENGLISH LANGUAGE WRITE",
+                "name": "english_language_write",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3b972bc26",
+                "label": "IF YOU HAVE COMPLETED IELTS, PLEASE ENTER YOUR SCORE",
+                "name": "if_you_have_completed_ielts_please_enter_your_score",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3ba22bc27",
+                "label": "FRENCH LANGUAGE SPEAK",
+                "name": "french_language_speak",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3beb2bc28",
+                "label": "FRENCH LANGUAGE READ",
+                "name": "french_language_read",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3bf52bc29",
+                "label": "FRENCH LANGUAGE WRITE",
+                "name": "french_language_write",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3c052bc2a",
+                "label": "IF YOU HAVE COMPLETED TEF, PLEASE ENTER YOUR SCORE",
+                "name": "if_you_have_completed_tef_please_enter_your_score",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3c21cbe7d",
+                "label": "HOW MUCH MONEY WILL YOU BRING TO CANADA",
+                "name": "how_much_money_will_you_bring_to_canada",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3c2dcbe7e",
+                "label": "HAVE YOU BEEN CONVICTED OF OR CURRENTLY CHARGED WITH A CRIME OR OFFENCE IN ANY COUNTRY",
+                "name": "have_you_been_convicted_of_or_currently",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3c35cbe7f",
+                "label": "PREVIOUSLY SOUGHT REFUGEE STATUS IN CANADA OR APPLIED FOR AN IMMIGRANT OR VISITOR VISA",
+                "name": "previously_sought_refugee_status_in_canada_",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3c4ecbe80",
+                "label": "BEEN REFUSED REFUGEE STATUS IN, OR AN IMMIGRANT OR VISITOR VISA TO, CANADA OR ANY OTHER COUNTRY",
+                "name": "been_refused_refugee_status_in_or_an_immigrant",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            },
+            {
+                "key": "field_622c3c5acbe81",
+                "label": "IF APPLICABLE, HAVE YOU FINISHED YOUR MILITARY DUTY AND RECEIVE YOUR CARD",
+                "name": "if_applicable_have_you_finished_your_military",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": "",
+                "translations": "translate"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "forms"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": ""
+    },
+    {
         "key": "group_6229b53c5777b",
         "title": "iss فوتر",
         "fields": [
@@ -1980,125 +2629,6 @@
                     "param": "options_page",
                     "operator": "==",
                     "value": "iis-theme-general-settings-homepage"
-                }
-            ]
-        ],
-        "menu_order": 0,
-        "position": "normal",
-        "style": "default",
-        "label_placement": "top",
-        "instruction_placement": "label",
-        "hide_on_screen": "",
-        "active": true,
-        "description": ""
-    },
-    {
-        "key": "group_622b2c9a7c420",
-        "title": "سوالات متداول",
-        "fields": [
-            {
-                "key": "field_622b2d41fa4db",
-                "label": "سوالات",
-                "name": "ques",
-                "type": "repeater",
-                "instructions": "",
-                "required": 0,
-                "conditional_logic": 0,
-                "wrapper": {
-                    "width": "",
-                    "class": "",
-                    "id": ""
-                },
-                "collapsed": "",
-                "min": 0,
-                "max": 0,
-                "layout": "table",
-                "button_label": "",
-                "sub_fields": [
-                    {
-                        "key": "field_622b2d73fa4dc",
-                        "label": "سوال",
-                        "name": "ques",
-                        "type": "text",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": "",
-                        "maxlength": "",
-                        "translations": "translate"
-                    },
-                    {
-                        "key": "field_622b2d86fa4dd",
-                        "label": "جواب",
-                        "name": "resp",
-                        "type": "text",
-                        "instructions": "",
-                        "required": 0,
-                        "conditional_logic": 0,
-                        "wrapper": {
-                            "width": "",
-                            "class": "",
-                            "id": ""
-                        },
-                        "default_value": "",
-                        "placeholder": "",
-                        "prepend": "",
-                        "append": "",
-                        "maxlength": "",
-                        "translations": "translate"
-                    }
-                ]
-            }
-        ],
-        "location": [
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "immigration"
-                }
-            ],
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "video"
-                }
-            ],
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "program"
-                }
-            ],
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "post"
-                }
-            ],
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "news"
-                }
-            ],
-            [
-                {
-                    "param": "post_type",
-                    "operator": "==",
-                    "value": "page"
                 }
             ]
         ],
