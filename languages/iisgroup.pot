@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-11 11:36+0000\n"
+"POT-Creation-Date: 2022-03-12 07:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -226,4 +226,163 @@ msgid "FAQ"
 msgstr ""
 
 msgid "There is nothing to show"
+msgstr ""
+
+msgid "FIRST NAME"
+msgstr ""
+
+msgid "FAMILY NAME"
+msgstr ""
+
+msgid "CURRENT ADDRESS"
+msgstr ""
+
+msgid "TELEPHONE"
+msgstr ""
+
+msgid "E-MAIL"
+msgstr ""
+
+msgid "DATE OF BIRTH"
+msgstr ""
+
+msgid "CITY AND COUNTRY OF BIRTH"
+msgstr ""
+
+msgid "CURRENT MARITAL STATUS"
+msgstr ""
+
+msgid "NUMBER OF DEPENDENTS"
+msgstr ""
+
+msgid "INITIAL ASSESSMENT FORM"
+msgstr ""
+
+msgid "\"*\" indicates required fields"
+msgstr ""
+
+msgid "Step 1 of 5 - Personal Information"
+msgstr ""
+
+msgid "INSTITUTION DATE COMPLETE"
+msgstr ""
+
+msgid "NAME OF THE UNIVERSITY OR COLLAGE"
+msgstr ""
+
+msgid "PROGRAM"
+msgstr ""
+
+msgid "Error, duplicate 1: INSTITUTION DATE COMPLETE"
+msgstr ""
+
+msgid "Error, duplicate 1: NAME OF THE UNIVERSITY OR COLLAGE"
+msgstr ""
+
+msgid "NAME OF THE CERTIFICATE"
+msgstr ""
+
+msgid "COMPANY FROM"
+msgstr ""
+
+msgid "COMPANY TO"
+msgstr ""
+
+msgid "OCCUPATION"
+msgstr ""
+
+msgid "CITY/COUNTRY"
+msgstr ""
+
+msgid "ENGLISH LANGUAGE SPEAK"
+msgstr ""
+
+msgid "ENGLISH LANGUAGE READ"
+msgstr ""
+
+msgid "ENGLISH LANGUAGE WRITE"
+msgstr ""
+
+msgid "IF YOU HAVE COMPLETED IELTS, PLEASE ENTER YOUR SCORE:"
+msgstr ""
+
+msgid "FRENCH LANGUAGE SPEAK"
+msgstr ""
+
+msgid "FRENCH LANGUAGE READ"
+msgstr ""
+
+msgid ""
+"\n"
+"FRENCH LANGUAGE WRITE"
+msgstr ""
+
+msgid "IF YOU HAVE COMPLETED TEF, PLEASE ENTER YOUR SCORE:"
+msgstr ""
+
+msgid "BACK"
+msgstr ""
+
+msgid "HOW MUCH MONEY WILL YOU BRING TO CANADA?"
+msgstr ""
+
+msgid ""
+"HAVE YOU BEEN CONVICTED OF OR CURRENTLY CHARGED WITH A CRIME OR OFFENCE IN "
+"ANY COUNTRY?"
+msgstr ""
+
+msgid ""
+"PREVIOUSLY SOUGHT REFUGEE STATUS IN CANADA OR APPLIED FOR AN IMMIGRANT OR "
+"VISITOR VISA?"
+msgstr ""
+
+msgid ""
+"IF APPLICABLE, HAVE YOU FINISHED YOUR MILITARY DUTY AND RECEIVE YOUR CARD?"
+msgstr ""
+
+msgid "SEND"
+msgstr ""
+
+msgid "Personal Information"
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "Step 1 of 5"
+msgstr ""
+
+msgid "Next"
+msgstr ""
+
+msgid "single"
+msgstr ""
+
+msgid "married"
+msgstr ""
+
+msgid "Step 2 of 5"
+msgstr ""
+
+msgid "Education"
+msgstr ""
+
+msgid "Work Experience"
+msgstr ""
+
+msgid "Language knowledge"
+msgstr ""
+
+msgid "rest of Information"
+msgstr ""
+
+msgid "PROFESSIONAL AFFILIATION & TECHNICAL TRAININGS / CERTIFICATES DATE"
+msgstr ""
+
+msgid "Step 3 of 5"
+msgstr ""
+
+msgid ""
+"If a person, employer or organization, in Canada has offered to assist you "
+"after arrival, provide the name and the address of the company"
 msgstr ""

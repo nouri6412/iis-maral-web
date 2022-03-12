@@ -279,3 +279,49 @@ function iisgroup_post_type_program()
 }
 add_action('init', 'iisgroup_post_type_program');
 
+///post type forms
+
+function iisgroup_post_type_forms()
+{
+
+    $supports = array(
+        'title', // post title
+        'thumbnail', // featured images
+		'editor',
+		'excerpt',
+        'custom-fields', // custom fields
+        'post-formats', // post formats
+		
+    );
+
+    $labels = array(
+        'name' => _x('فرم ارزیابی', 'plural'),
+        'singular_name' => _x('فرم ارزیابی', 'singular'),
+        'menu_name' => _x('فرم ارزیابی', 'admin menu'),
+        'name_admin_bar' => _x('فرم ارزیابی', 'admin bar'),
+        'add_new' => _x('فرم ارزیابی جدید', 'add new'),
+        'add_new_item' => "ثبت فرم ارزیابی",
+        'new_item' => "فرم ارزیابی جدید",
+        'edit_item' => "ویرایش فرم ارزیابی",
+        'view_item' => "مشاهده فرم ارزیابی",
+        'all_items' => "همه فرم ارزیابی",
+        'search_items' => "جستجوی فرم ارزیابی",
+        'not_found' => "یافت نشد"
+    );
+
+    $args = array(
+        'supports' => $supports,
+        'labels' => $labels,
+        'public' => true,
+        'query_var' => true,
+        'rewrite' => array('slug' => 'forms'),
+        'has_archive' => true,
+        'hierarchical' => false,
+        // 'capabilities' => array(
+        //     'create_posts' => 'do_not_allow'
+        // )
+    );
+    register_post_type('forms', $args);
+}
+add_action('init', 'iisgroup_post_type_forms');
+

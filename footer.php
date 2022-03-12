@@ -37,21 +37,54 @@
     document.querySelector('.navbar-toggler').addEventListener('click', () => {
         document.querySelector('.navbar-toggler-icon').classList.toggle('navbar-toggler-icon2')
     })
-            // select all accordion items
-            const accItems = document.querySelectorAll(".accordion__item");
+    // select all accordion items
+    const accItems = document.querySelectorAll(".accordion__item");
 
-// add a click event for all items
-accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
+    // add a click event for all items
+    accItems.forEach((acc) => acc.addEventListener("click", toggleAcc));
 
-function toggleAcc() {
-    // remove active class from all items exept the current item (this)
-    accItems.forEach((item) => item != this ? item.classList.remove("accordion__item--active") : null);
+    function toggleAcc() {
+        // remove active class from all items exept the current item (this)
+        accItems.forEach((item) => item != this ? item.classList.remove("accordion__item--active") : null);
 
-    // toggle active class on current item
-    if (this.classList != "accordion__item--active") {
-        this.classList.toggle("accordion__item--active");
+        // toggle active class on current item
+        if (this.classList != "accordion__item--active") {
+            this.classList.toggle("accordion__item--active");
+        }
     }
-}
+
+    function next_form_step(this_page, next_page) {
+        $('#form-step-' + this_page).css('display', 'none');
+        $('#form-step-' + next_page).css('display', 'block');
+    }
+
+    function back_form_step(this_page, back_page) {
+        $('#form-step-' + this_page).css('display', 'none');
+        $('#form-step-' + back_page).css('display', 'block');
+    }
+
+    function submit_form_step(button,element_error,element_done) {
+        var data = {
+            'action': 'mbm_initial_assessment_form'
+        };
+
+        $('#initial_assessment_form input').each(function() {
+            data[$(this).attr('id')] = $(this).val();
+        });
+       // console.log(data);
+   
+        custom_theme_mbm_base_ajax(data, function(result) {
+console.log(result);
+            if (result.state == 1) {
+                element_done.html(result.message);
+                button.remove();
+
+            } else {
+                element_error.html(result.message);
+            }
+
+        });
+    }
 </script>
 <?php wp_footer(); ?>
 </body>
