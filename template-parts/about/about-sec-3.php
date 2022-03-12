@@ -22,7 +22,7 @@ $data = get_field("sec-3");
                     <?php
                     foreach ($data['items'] as $item) {
                     ?>
-                        <div class="col">
+                        <div style="margin-top: 20px;" class="col">
                             <div class="text-center">
                                 <div class="d-flex align-items-center">
                                     <img src="<?php echo $item["icon"]; ?>" alt="<?php echo $item["title"]; ?>" width="85px" class="border-radius">

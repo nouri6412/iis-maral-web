@@ -2,7 +2,7 @@
 $args = array(
     'post_type' => 'program',
     'post_status' => 'publish',
-    'posts_per_page' => 3
+    'posts_per_page' => 4
 );
 $the_query = new WP_Query($args);
 ?>

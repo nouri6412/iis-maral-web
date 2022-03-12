@@ -1056,7 +1056,7 @@
                     {
                         "key": "field_6229a403440a6",
                         "label": "آیتم 2",
-                        "name": "itrm2",
+                        "name": "item2",
                         "type": "group",
                         "instructions": "",
                         "required": 0,
@@ -1121,9 +1121,9 @@
                                     "class": "",
                                     "id": ""
                                 },
-                                "return_format": "",
+                                "return_format": "url",
                                 "preview_size": "medium",
-                                "library": "",
+                                "library": "all",
                                 "min_width": "",
                                 "min_height": "",
                                 "min_size": "",
@@ -1203,9 +1203,9 @@
                                     "class": "",
                                     "id": ""
                                 },
-                                "return_format": "",
+                                "return_format": "url",
                                 "preview_size": "medium",
-                                "library": "",
+                                "library": "all",
                                 "min_width": "",
                                 "min_height": "",
                                 "min_size": "",
@@ -2641,4 +2641,5 @@
         "active": true,
         "description": ""
     }
-]
+]<br />
+<b>Notice</b>:  ob_end_flush(): failed to send buffer of zlib output compression (0) in <b>/home2/blitdani/public_html/iss/wp-includes/functions.php</b> on line <b>5212</b><br />

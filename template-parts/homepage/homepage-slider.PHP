@@ -4,10 +4,7 @@ if (pll_current_language() == 'fa') {
     $lang_flag = "fa";
 }
 $slider = get_field("slider");
-if (!is_array($slider)) {
-    $slider = ["en"=>[],"fa"=>[]];
-}
-$sliders =$slider;
+
 $header = get_field("sec1");
 ?>
 <!-- items -->
