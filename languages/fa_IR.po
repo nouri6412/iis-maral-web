@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2022-03-08 06:30+0000\n"
-"PO-Revision-Date: 2022-03-11 11:36+0000\n"
+"PO-Revision-Date: 2022-03-12 09:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: فارسی\n"
 "Language: fa_IR\n"
@@ -14,6 +14,14 @@ msgstr ""
 "X-Generator: Loco https://localise.biz/\n"
 "X-Loco-Version: 2.5.8; wp-5.9.1\n"
 "X-Domain: iisgroup"
+
+msgid ""
+"\n"
+"FRENCH LANGUAGE WRITE"
+msgstr "Writing زبان فرانسه"
+
+msgid "\"*\" indicates required fields"
+msgstr "فیلدهای ضروری"
 
 #. 1: Comment date, 2: Comment time.
 #: classes/class-custom-theme-walker-comment.php:78
@@ -30,6 +38,16 @@ msgstr ""
 msgid "ago"
 msgstr "پیش"
 
+msgid "BACK"
+msgstr "قبلی"
+
+msgid ""
+"BEEN REFUSED REFUGEE STATUS IN, OR AN IMMIGRANT OR VISITOR VISA TO, CANADA "
+"OR ANY OTHER COUNTRY?"
+msgstr ""
+"آیا وضعیت پناهندگی در کانادا یا ویزای مهاجرت یا بازدید کننده به کانادا یا هر "
+"کشور دیگری رد شده است؟"
+
 msgid "Blog"
 msgstr "بلاگ"
 
@@ -39,20 +57,47 @@ msgstr "ویزای کانادا"
 msgid "Cities in Canada"
 msgstr "شهرهای کانادا"
 
+msgid "CITY AND COUNTRY OF BIRTH"
+msgstr "شهر و کشور محل تولد"
+
+msgid "CITY/COUNTRY"
+msgstr "شهر/کشور"
+
 msgid "Comment"
 msgstr "دیدگاه"
 
 msgid "Comments"
 msgstr "دیدگاه ها"
 
+msgid "COMPANY FROM"
+msgstr "از تاریخ"
+
+msgid "COMPANY TO"
+msgstr "تا تاریخ"
+
 #: template-parts/homepage/homepage-contact.php:12
 #: template-parts/homepage/homepage-contact.php:41
 msgid "Contact us"
 msgstr "تماس با ما"
 
+msgid "CURRENT ADDRESS"
+msgstr "آدرس فعلی"
+
+msgid "CURRENT MARITAL STATUS"
+msgstr "وضعیت تاهل"
+
+msgid "DATE OF BIRTH"
+msgstr "تاریخ تولد"
+
+msgid "E-MAIL"
+msgstr "ایمیل"
+
 #: classes/class-custom-theme-walker-comment.php:89
 msgid "Edit"
 msgstr ""
+
+msgid "Education"
+msgstr "تحصیلات"
 
 msgid ""
 "educational\n"
@@ -64,13 +109,47 @@ msgstr "تحصیلی"
 msgid "email"
 msgstr "ایمیل"
 
+msgid "ENGLISH LANGUAGE READ"
+msgstr "Reading  زبان انگلیسی"
+
+msgid "ENGLISH LANGUAGE SPEAK"
+msgstr "Speaking زیبان انگلیسی"
+
+msgid "ENGLISH LANGUAGE WRITE"
+msgstr "writing زبان انگلیسی"
+
+msgid "Error, duplicate 1: INSTITUTION DATE COMPLETE"
+msgstr ""
+
+msgid "Error, duplicate 1: NAME OF THE UNIVERSITY OR COLLAGE"
+msgstr ""
+
+msgid "FAMILY NAME"
+msgstr "نام خانوادگی"
+
 msgid "FAQ"
 msgstr "سوالات متداول"
+
+msgid "FIRST NAME"
+msgstr "نام"
 
 #: template-parts/menu/menu-content.php:17
 #: template-parts/menu/menu-content.php:50
 msgid "Follow us"
 msgstr "ما را دنبال کنید"
+
+msgid "FRENCH LANGUAGE READ"
+msgstr "Reading زبان فرانسه"
+
+msgid "FRENCH LANGUAGE SPEAK"
+msgstr "Speaking زیبان فرانسه"
+
+msgid ""
+"HAVE YOU BEEN CONVICTED OF OR CURRENTLY CHARGED WITH A CRIME OR OFFENCE IN "
+"ANY COUNTRY?"
+msgstr ""
+"آیا در هر کشوری به جرم یا جرمی محکوم شده اید یا در حال حاضر به آن متهم شده "
+"اید؟"
 
 msgid "Home"
 msgstr "خانه"
@@ -78,6 +157,26 @@ msgstr "خانه"
 #. Name of the template
 msgid "homepage"
 msgstr ""
+
+msgid "HOW MUCH MONEY WILL YOU BRING TO CANADA?"
+msgstr "چه مقدار پول به کانادا می آورید؟"
+
+msgid ""
+"If a person, employer or organization, in Canada has offered to assist you "
+"after arrival, provide the name and the address of the company"
+msgstr ""
+
+msgid ""
+"IF APPLICABLE, HAVE YOU FINISHED YOUR MILITARY DUTY AND RECEIVE YOUR CARD?"
+msgstr ""
+"در صورت وجود، آیا شما وظیفه نظامی خود را به پایان رسانده اید و کارت خود را "
+"دریافت کرده اید؟"
+
+msgid "IF YOU HAVE COMPLETED IELTS, PLEASE ENTER YOUR SCORE:"
+msgstr "اگر آیلتس را کامل کرده اید، لطفا نمره خود را وارد کنید:"
+
+msgid "IF YOU HAVE COMPLETED TEF, PLEASE ENTER YOUR SCORE:"
+msgstr "اگر TEF را کامل کرده اید، لطفاً امتیاز خود را وارد کنید:"
 
 #. Name of the theme
 msgid "iis-group"
@@ -92,14 +191,26 @@ msgstr "ویدیو های معرفی برنامه های مهاجرتی"
 msgid "IMMIGRATION PROGRAMS"
 msgstr "برنامه های مهاجرتی"
 
+msgid "INITIAL ASSESSMENT FORM"
+msgstr "فرم ارزیابی اولیه مهاجرت"
+
+msgid "INSTITUTION DATE COMPLETE"
+msgstr "تاریخ فارغ التحصیلی"
+
 msgid "investment"
 msgstr "سرمایه گذاری"
+
+msgid "Language knowledge"
+msgstr "دانش زبان"
 
 msgid "LASTEST NEWS OF CANADA"
 msgstr "اخبار جدید کانادا"
 
 msgid "Latest News"
 msgstr "آخرین اخبار"
+
+msgid "married"
+msgstr ""
 
 #: template-parts/homepage/homepage-contact.php:16
 #: template-parts/homepage/homepage-contact.php:45
@@ -121,9 +232,27 @@ msgstr "بیشتر"
 msgid "name"
 msgstr "نام"
 
+msgid "NAME OF THE CERTIFICATE"
+msgstr "نام رشته تحصیلی"
+
+msgid "NAME OF THE UNIVERSITY OR COLLAGE"
+msgstr "نام موسسه محل تحصیل"
+
+msgid "New message"
+msgstr ""
+
+msgid "Next"
+msgstr "بعدی"
+
 #: archive-immigration.php:55 archive-program.php:55 archive-video.php:55
 msgid "next"
 msgstr "بعدی"
+
+msgid "NUMBER OF DEPENDENTS"
+msgstr ""
+
+msgid "OCCUPATION"
+msgstr "نام شرکت"
 
 msgid "One Comment"
 msgstr "یک دیدگاه"
@@ -131,6 +260,9 @@ msgstr "یک دیدگاه"
 #: template-parts/homepage/homepage-resent-program.php:16
 msgid "Permanent Residency"
 msgstr "اقامت دائم"
+
+msgid "Personal Information"
+msgstr "اطلاعات شخصی"
 
 msgid "Post a new comment"
 msgstr "یک دیدگاه ارسال کنید"
@@ -142,12 +274,28 @@ msgstr "ثبت دیدگاه محدود شده است"
 msgid "prev"
 msgstr "قبلی"
 
+msgid ""
+"PREVIOUSLY SOUGHT REFUGEE STATUS IN CANADA OR APPLIED FOR AN IMMIGRANT OR "
+"VISITOR VISA?"
+msgstr ""
+"آیا قبلاً به دنبال وضعیت پناهندگی در کانادا بوده اید یا برای ویزای مهاجرت یا "
+"ویزیت درخواست داده اید؟"
+
+msgid "PROFESSIONAL AFFILIATION & TECHNICAL TRAININGS / CERTIFICATES DATE"
+msgstr "عنوان مدرک فنی و حرفه ای"
+
+msgid "PROGRAM"
+msgstr ""
+
 msgid "Quick access"
 msgstr "دسترسی سریع"
 
 #: template-parts/homepage/homepage-about.php:23
 msgid "READ MORE"
 msgstr "اطلاعات بیشتر"
+
+msgid "rest of Information"
+msgstr "سایر اطلاعات"
 
 msgid "See all"
 msgstr "مشاهده همه"
@@ -156,6 +304,9 @@ msgid ""
 "See all news\n"
 "                                                "
 msgstr "مشاهده همه اخبار"
+
+msgid "SEND"
+msgstr ""
 
 #: template-parts/homepage/homepage-contact.php:24
 #: template-parts/homepage/homepage-contact.php:53
@@ -168,12 +319,36 @@ msgstr "خدمات"
 msgid "Share this"
 msgstr "این مطلب را به اشتراک بگذارید"
 
+msgid "single"
+msgstr ""
+
+msgid "Step"
+msgstr ""
+
+msgid "Step 1 of 5"
+msgstr "گام 1 از 5"
+
+msgid "Step 2 of 5"
+msgstr "گام 2 از 5"
+
+msgid "Step 3 of 5"
+msgstr "گام 3 از 5"
+
+msgid "Step 4 of 5"
+msgstr "گام 4 از 5"
+
+msgid "Step 5 of 5"
+msgstr "گام 5 از  5"
+
 #: inc/ajax/contact.php:44
 msgid "Successfully submitted"
 msgstr "با موفقیت ارسال گردید"
 
 msgid "Table of Contents"
 msgstr "فهرست مطالب"
+
+msgid "TELEPHONE"
+msgstr "تلفن"
 
 msgid "There is nothing to show"
 msgstr "چیزی برای نمایش وجود ندارد"
@@ -185,6 +360,9 @@ msgstr "وب سایت"
 #: template-parts/homepage/homepage-resent-immigration.php:17
 msgid "WEBSITES OF THE IMMIGRATION ORGANIZATION"
 msgstr "وب سایت های سازمان مهاجرتی iss"
+
+msgid "Work Experience"
+msgstr "سابقه کاری"
 
 msgid "Write a comment"
 msgstr "ارسال دیدگاه"

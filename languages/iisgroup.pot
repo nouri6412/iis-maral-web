@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: iis-group\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-12 07:22+0000\n"
+"POT-Creation-Date: 2022-03-12 09:54+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -261,9 +261,6 @@ msgstr ""
 msgid "\"*\" indicates required fields"
 msgstr ""
 
-msgid "Step 1 of 5 - Personal Information"
-msgstr ""
-
 msgid "INSTITUTION DATE COMPLETE"
 msgstr ""
 
@@ -385,4 +382,18 @@ msgstr ""
 msgid ""
 "If a person, employer or organization, in Canada has offered to assist you "
 "after arrival, provide the name and the address of the company"
+msgstr ""
+
+msgid "Step 4 of 5"
+msgstr ""
+
+msgid "Step 5 of 5"
+msgstr ""
+
+msgid "New message"
+msgstr ""
+
+msgid ""
+"BEEN REFUSED REFUGEE STATUS IN, OR AN IMMIGRANT OR VISITOR VISA TO, CANADA "
+"OR ANY OTHER COUNTRY?"
 msgstr ""
