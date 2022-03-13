@@ -29,7 +29,7 @@ $the_query = new WP_Query($args);
                     ?>
                 </div>
             </div>
-            <div>
+            <div style="text-align: center;">
                 <a href="<?php echo custom_site_url('video'); ?>" class="btn btn-primary"><?php _e('more', 'iisgroup') ?></a>
             </div>
         </div>

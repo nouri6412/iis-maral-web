@@ -29,7 +29,7 @@ $the_query = new WP_Query($args);
                 wp_reset_query();
                 ?>
             </div>
-            <div>
+            <div style="text-align: center;">
                 <a href="<?php echo custom_site_url('program'); ?>" class="btn btn-primary"><?php _e('more', 'iisgroup') ?></a>
             </div>
         </div>

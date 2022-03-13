@@ -1453,3 +1453,50 @@ audio {
 .opacity-1{
     opacity: 1;
 }
+.bg-image {
+    min-height: 600px !important;
+}
+
+.btn-primary {
+    background-color: #0770BD !important;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 14px;
+    width: 120px;
+}
+.responsive{
+    width: 90% ;
+} 
+.responsive img{
+    height: 242px;
+    object-fit: cover;
+}
+@media screen and (max-width:1200px){
+    .responsive{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .responsive {
+        text-align: center !important;
+    }
+
+    .responsive img {
+        height: 166px !important;
+    }
+}
+@media screen and (max-width:900px) {
+    .responsive img {
+        height: 166px !important;
+    }
+}
+@media screen and (max-width:768px){
+    .bg-image {
+        min-height: 600px !important;
+        padding-top: 70px !important;
+    }
+}

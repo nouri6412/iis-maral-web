@@ -14,6 +14,7 @@
 
 get_header();
 ?>
+ <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/initial-form.css">
 <div id="initial_assessment_form" class="form">
 <?php
 get_template_part('template-parts/form/form', "step-1");

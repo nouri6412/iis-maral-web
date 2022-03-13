@@ -153,3 +153,5 @@ function custom_bloginfo($output, $show)
     return $output;
 }
 add_filter('bloginfo', 'custom_bloginfo', 10, 2);
+
+remove_action( 'shutdown', 'wp_ob_end_flush_all', 1 );

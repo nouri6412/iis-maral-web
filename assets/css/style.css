@@ -490,7 +490,7 @@ main {
 
 .form input::placeholder {
     color: #B3B5BB;
-    text-align: left;
+    text-align: right;
 }
 
 .element {
@@ -577,7 +577,7 @@ main {
 .inner {
     position: absolute;
     width: 170px;
-    min-height: 160px;
+    height: 160px;
     background-color: #ffff;
     left: -2px;
     top: 40px;
@@ -1447,4 +1447,40 @@ audio {
 
 .opacity-1 {
     opacity: 1;
+}
+.bg-image {
+    min-height: 600px !important;
+}
+.responsive{
+    width: 90% ;
+} 
+.responsive img{
+    height: 242px;
+    object-fit: cover;
+}
+@media screen and (max-width:1200px){
+    .responsive{
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:900px) {
+    .responsive {
+        text-align: center !important;
+    }
+
+    .responsive img {
+        height: 166px !important;
+    }
+}
+@media screen and (max-width:900px) {
+    .responsive img {
+        height: 166px !important;
+    }
+}
+@media screen and (max-width:768px){
+    .bg-image {
+        min-height: 600px !important;
+        padding-top: 70px !important;
+    }
 }
