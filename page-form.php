@@ -12,7 +12,7 @@
  */
 
 
-get_header();
+get_header('bg');
 ?>
  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/initial-form.css">
 <div id="initial_assessment_form" class="form">

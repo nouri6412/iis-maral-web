@@ -484,6 +484,7 @@ main {
     -ms-border-radius: 8px 8px 8px 8px;
     -o-border-radius: 8px 8px 8px 8px;
 }
+
 .form input[type="submit"] {
     width: 145px !important;
 }
@@ -679,6 +680,7 @@ main {
     display: inline-block;
     right: 20px;
 }
+
 .border-blue {
     position: relative;
     margin-bottom: 40px;
@@ -713,6 +715,7 @@ h5.border-blue::after {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
 .font-13 {
     font-size: 16px;
 }
@@ -1029,7 +1032,7 @@ h5.border-blue::after {
         -moz-transform: scale(.6);
         -ms-transform: scale(.6);
         -o-transform: scale(.6);
-}
+    }
 
     .team .col div>div {
         flex-direction: column !important;
@@ -1037,7 +1040,7 @@ h5.border-blue::after {
         align-items: flex-start !important;
     }
 
-    .team .col:not(:nth-child(3)) div>div img {
+    .team .col div>div img {
         border-radius: 100%;
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
@@ -1294,7 +1297,8 @@ main .accordion {
     -o-transition: all .3s ease;
     font-size: 13px;
 }
-.link-btn a svg{
+
+.link-btn a svg {
     font-size: 17px !important;
 }
 
@@ -1347,7 +1351,8 @@ audio {
     audio {
         width: 300px;
     }
-    .fs-5{
+
+    .fs-5 {
         font-size: 15px !important;
     }
 }
@@ -1448,18 +1453,22 @@ audio {
 .opacity-1 {
     opacity: 1;
 }
+
 .bg-image {
     min-height: 600px !important;
 }
-.responsive{
-    width: 90% ;
-} 
-.responsive img{
+
+.responsive {
+    width: 90%;
+}
+
+.responsive img {
     height: 242px;
     object-fit: cover;
 }
-@media screen and (max-width:1200px){
-    .responsive{
+
+@media screen and (max-width:1200px) {
+    .responsive {
         width: 100% !important;
     }
 }
@@ -1473,14 +1482,27 @@ audio {
         height: 166px !important;
     }
 }
+
 @media screen and (max-width:900px) {
     .responsive img {
         height: 166px !important;
     }
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:768px) {
     .bg-image {
         min-height: 600px !important;
         padding-top: 70px !important;
     }
+}
+
+@media screen and (min-width:800px) and (max-width:1260px) {
+    .permissions .col>div {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
 }

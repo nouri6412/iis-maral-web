@@ -1009,7 +1009,7 @@ h5.border-blue::after {
         align-items: flex-start !important;
     }
 
-    .team .col:not(:nth-child(3)) div>div img {
+    .team .col div>div img {
         border-radius: 100%;
         -webkit-border-radius: 100%;
         -moz-border-radius: 100%;
@@ -1499,4 +1499,14 @@ audio {
         min-height: 600px !important;
         padding-top: 70px !important;
     }
+}
+@media screen and (min-width:800px) and (max-width:1260px) {
+    .permissions .col>div {
+        transform: scale(.8);
+        -webkit-transform: scale(.8);
+        -moz-transform: scale(.8);
+        -ms-transform: scale(.8);
+        -o-transform: scale(.8);
+    }
+
 }

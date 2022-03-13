@@ -12,7 +12,7 @@
  */
 
 
-get_header();
+get_header('bg');
 ?>
 
 <section>
