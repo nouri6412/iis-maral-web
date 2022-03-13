@@ -12,7 +12,7 @@ $the_query = new WP_Query($args);
             <h4 class="font-bold"><?php _e('Latest News', 'iisgroup') ?>
             </h4>
             <div>
-                <ul class="p-0 news mt-4">
+                <ul class="p-0 news mt-4 ps-2">
                     <?php
                     while ($the_query->have_posts()) :
                         $the_query->the_post();
