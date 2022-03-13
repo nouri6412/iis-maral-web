@@ -52,7 +52,7 @@ $data = get_field("sec-3");
                     <div class="timeline-item">
                         <div class="timeline-pointer">
                             <div class="pointer-item">
-                                <img style="width: 70px;" src="<?php echo $item["icon"]; ?>" />
+                                <img style="width: 70px;height:70px" src="<?php echo $item["icon"]; ?>" />
                             </div>
                         </div>
                         <div class="timeline-meta"></div>

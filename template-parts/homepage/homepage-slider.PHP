@@ -30,7 +30,7 @@ $header = get_field("sec1");
                 <div class="col">
                     <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo (   isset($header["item1"]) && isset($header["item1"]["icon"])) ? $header["item1"]["icon"] : ''; ?>"/>
+                          <img style="width: 60px;" src="<?php echo (   isset($header["item1"]) && isset($header["item1"]["icon"])) ? $header["item1"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
                             <h5><?php echo (  isset($header["item1"]) && isset($header["item1"]["title"])) ? $header["item1"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
@@ -42,7 +42,7 @@ $header = get_field("sec1");
                 <div class="col">
                 <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo (  isset($header["item2"]) && isset($header["item2"]["icon"])) ? $header["item2"]["icon"] : ''; ?>"/>
+                          <img style="width: 60px;" src="<?php echo (  isset($header["item2"]) && isset($header["item2"]["icon"])) ? $header["item2"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
                             <h5><?php echo (  isset($header["item2"]) && isset($header["item2"]["title"])) ? $header["item2"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
@@ -54,7 +54,7 @@ $header = get_field("sec1");
                 <div class="col">
                 <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo (  isset($header["item3"]) && isset($header["item3"]["icon"])) ? $header["item3"]["icon"] : ''; ?>"/>
+                          <img style="width: 60px;" src="<?php echo (  isset($header["item3"]) && isset($header["item3"]["icon"])) ? $header["item3"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
                             <h5><?php echo (  isset($header["item3"]) && isset($header["item3"]["title"])) ? $header["item3"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
@@ -66,7 +66,7 @@ $header = get_field("sec1");
                 <div class="col">
                 <div class="d-flex align-items-center">
                         <span>
-                          <img style="width: 45px;height:45px" src="<?php echo (  isset($header["item4"]) && isset($header["item4"]["icon"])) ? $header["item4"]["icon"] : ''; ?>"/>
+                          <img style="width: 60px;" src="<?php echo (  isset($header["item4"]) && isset($header["item4"]["icon"])) ? $header["item4"]["icon"] : ''; ?>"/>
                         </span>
                         <div>
                             <h5><?php echo (  isset($header["item4"]) && isset($header["item4"]["title"])) ? $header["item4"]["title"] : ''; ?></h5><span class="d-block ms-2 text-secondary">
