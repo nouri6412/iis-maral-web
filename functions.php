@@ -20,7 +20,7 @@ function tags_support_all()
 function register_session_new()
 {
     if (!session_id()) {
-        session_start();
+      //  session_start();
     }
 }
 
