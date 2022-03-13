@@ -1466,6 +1466,9 @@ audio {
     height: 242px;
     object-fit: cover;
 }
+.bg-lighter {
+    background-color: #eaedf334 !important;
+}
 
 @media screen and (max-width:1200px) {
     .responsive {

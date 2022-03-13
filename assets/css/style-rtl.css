@@ -993,7 +993,9 @@ h5.border-blue::after {
     -webkit-filter: brightness(.7);
 }
 
-
+.bg-lighter {
+    background-color: #eaedf334 !important;
+}
 @media screen and (max-width:800px) {
     .permissions .col>div {
         transform: scale(.7);

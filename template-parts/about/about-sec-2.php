@@ -36,7 +36,7 @@ $data = get_field("sec-2");
                             ?>
                                 <div class="col">
                                     <div class="d-flex flex-column text-center" style="width: 140px;">
-                                        <span><img src="<?php echo $item["icon"] ?>" style="width: 70px;height:70px" /></span>
+                                        <span><img src="<?php echo $item["icon"] ?>" style="width: 35px;height:45px" /></span>
                                         <span class="text-secondary mt-1"><?php echo $item["title"] ?></span>
                                     </div>
                                 </div> <?php
