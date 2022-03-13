@@ -3,10 +3,10 @@ $args = array(
     'post_type' => 'news',
     'post_status' => 'publish',
     'posts_per_page' => 10
-);
+); 
 $the_query = new WP_Query($args);
 ?>
-<div class="bg-lighter border rounded">
+<div class="bg-lighter border rounded-3">
     <div class="p-4 pt-5 pb-5">
         <div>
             <h4 class="font-bold"><?php _e('Latest News', 'iisgroup') ?>
@@ -27,7 +27,7 @@ $the_query = new WP_Query($args);
                 </ul>
             </div>
             <div class="text-end mt-4">
-                <a href="<?php echo home_url('news') ?>" class="btn border"><?php _e('See all news', 'iisgroup') ?>
+                <a href="<?php echo home_url('news') ?>" class="btn border btn-primary rounded-2"><?php _e('See all news', 'iisgroup') ?>
                 </a>
             </div>
         </div>

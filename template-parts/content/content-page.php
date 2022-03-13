@@ -1,5 +1,11 @@
+<?php
+$font = "font-13";
+if (pll_current_language() == 'fa') {
+    $font = "";
+}
+?>
 <div>
-    <a href="<?php echo home_url(); ?>" class="text-dark"><?php _e('Home', 'iisgroup') ?></a><span>/</span><a href="<?php echo get_permalink(); ?>" class="text-dark">
+    <a href="<?php echo home_url(); ?>" class="text-dark <?php echo $font; ?>"><?php _e('Home', 'iisgroup') ?></a><span>/</span><a href="<?php echo get_permalink(); ?>" class="text-dark">
         <?php echo get_the_title(); ?></a>
 </div>
 <div class="mt-5">

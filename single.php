@@ -31,8 +31,8 @@ get_header('bg');
                 </div>
 
                 <!--  -->
-                <div class="col-12 col-lg-4 ps-lg-4 mt-5 mt-lg-0">
-                    <div class="border-lg-start ps-lg-4">
+                <div class="col-12 col-lg-4 ps-lg-4 mt-5 mt-lg-0 pt-5">
+                    <div class="border-lg-start ps-lg-4 mt-md-5">
                         <?php
                         get_template_part('template-parts/widget/widget', 'last-news');
                         get_template_part('template-parts/widget/widget', 'links');
