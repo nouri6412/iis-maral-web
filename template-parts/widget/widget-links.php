@@ -13,12 +13,12 @@
                                         </span></a></div>
                             </div>
                             <div class="row link-btn">
-                                <div class="col"><a href="investment"><svg width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
+                                <div class="col"><a href="<?php echo home_url('investment') ?>"><svg width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-bar-chart" viewBox="0 0 16 16">
                                             <path d="M4 11H2v3h2v-3zm5-4H7v7h2V7zm5-5v12h-2V2h2zm-2-1a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h2a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1h-2zM6 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm-5 4a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-3z">
                                             </path>
                                         </svg><span><?php _e('investment', 'iisgroup') ?>
                                         </span></a></div>
-                                <div class="col"><a href="canadian-visa"><svg width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-card-text" viewBox="0 0 16 16">
+                                <div class="col"><a href="<?php echo home_url('canadian-visa') ?>"><svg width="1em" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-card-text" viewBox="0 0 16 16">
                                             <path d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z">
                                             </path>
                                             <path d="M3 5.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zM3 8a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9A.5.5 0 0 1 3 8zm0 2.5a.5.5 0 0 1 .5-.5h6a.5.5 0 0 1 0 1h-6a.5.5 0 0 1-.5-.5z">

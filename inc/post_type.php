@@ -57,7 +57,7 @@ function iisgroup_post_type_news()
 		'editor',
 		'excerpt',
         'custom-fields', // custom fields
-        'post-formats', // post formats
+        'post-formats' // post formats
 		
     );
 
@@ -84,6 +84,8 @@ function iisgroup_post_type_news()
         'rewrite' => array('slug' => 'news'),
         'has_archive' => true,
         'hierarchical' => false,
+        'show_in_rest' => true,
+        'supports' => array('editor')
         // 'capabilities' => array(
         //     'create_posts' => 'do_not_allow'
         // )
