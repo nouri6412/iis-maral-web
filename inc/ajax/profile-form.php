@@ -20,7 +20,7 @@ class iisgroup_form
         }
 
         $result["state"] = 1;
-        $result["message"] = __('Successfully submitted','iisgroup');
+        $result["message"] = __('Successfully registered Our partners will contact you soon','iisgroup');
 
         echo json_encode($result);
         die();

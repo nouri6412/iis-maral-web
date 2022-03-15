@@ -472,10 +472,10 @@ main {
     font-weight: 500;
 }
 
-.form input:not(input[type="checkbox"]) {
+.form input:not(input[type="checkbox"]),.form textarea {
     background-color: #EAEDF3;
     border: none;
-    width: 90%;
+    width: 70%;
     margin: 10px 0;
     padding: 10px;
     border-radius: 8px 8px 8px 8px;
@@ -491,7 +491,10 @@ main {
 
 .form input::placeholder {
     color: #B3B5BB;
-    text-align: right;
+    text-align: left;
+}
+form label{
+    min-width: 150px;
 }
 
 .element {
