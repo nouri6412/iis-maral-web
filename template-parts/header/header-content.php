@@ -11,9 +11,9 @@
             ?>
             <a href=""><img src="<?php echo $header["logo" . $lang_flag]; ?>" alt="<?php echo get_bloginfo('name'); ?>" class="d-none d-lg-block"><img src="<?php echo $header["logo" . $lang_flag]; ?>" alt="<?php echo get_bloginfo('name'); ?>" width="70px" class="d-lg-none"></a>
             <!-- <a href="" class="ms-lg-4">
-                <h4 class="gray d-none d-lg-block font-bold"><?php echo strtoupper(get_bloginfo('name')); ?>
+                <h4 class="gray d-none d-lg-block font-bold"><?php //echo strtoupper(get_bloginfo('name')); ?>
                 </h4>
-                <span class="gray d-lg-none span"><?php echo strtoupper(get_bloginfo('name')); ?>
+                <span class="gray d-lg-none span"><?php //echo strtoupper(get_bloginfo('name')); ?>
                 </span>
             </a> -->
         </div>
