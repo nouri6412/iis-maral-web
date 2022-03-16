@@ -10,12 +10,12 @@
             }
             ?>
             <a href=""><img src="<?php echo $header["logo" . $lang_flag]; ?>" alt="<?php echo get_bloginfo('name'); ?>" class="d-none d-lg-block"><img src="<?php echo $header["logo" . $lang_flag]; ?>" alt="<?php echo get_bloginfo('name'); ?>" width="70px" class="d-lg-none"></a>
-            <a href="" class="ms-lg-4">
+            <!-- <a href="" class="ms-lg-4">
                 <h4 class="gray d-none d-lg-block font-bold"><?php echo strtoupper(get_bloginfo('name')); ?>
                 </h4>
                 <span class="gray d-lg-none span"><?php echo strtoupper(get_bloginfo('name')); ?>
                 </span>
-            </a>
+            </a> -->
         </div>
         <div class="col p-0 p-md-2 d-flex align-items-center justify-content-end pe-3">
             <ul class="p-0 d-flex align-items-center madia-list m-0 me-lg-4">
