@@ -1,5 +1,5 @@
 <!--  -->
-<section class="bg-image pb-4 pb-lg-0 pt-4" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-303-1.png);background-position: top center;min-height: 500px;">
+<section class="bg-image pb-4 pb-lg-0 <?php echo (pll_current_language() == 'fa') ? '' :'pt-4'  ?>" style="background-image: url(<?php echo get_template_directory_uri(); ?>/assets/image/Group-303-1.png);background-position: top center;min-height: 500px;">
     <div class="container position-relative d-flex align-items-center">
         <div class="col-12 col-lg-11 m-auto p-2 p-lg-4 pt-5">
             <div class="row row-cols-4 element">
